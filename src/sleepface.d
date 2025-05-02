@@ -280,4 +280,4 @@ src/sleepface.o src/sleepface.d: src/sleepface.cpp \
  include/synth/fxprofile.h include/anim0.h include/anim1.h \
  include/anim2.h include/anim3.h include/anim4.h include/anim5.h \
  include/anim6.h include/anim7.h include/anim8.h include/anim9.h \
- include/anim10.h
+ include/anim10.h include/anim11.h include/anim12.h

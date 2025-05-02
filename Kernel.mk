@@ -43,6 +43,8 @@ OBJS		:=	src/config.o \
 			src/anim8.o \
 			src/anim9.o \
 			src/anim10.o \
+			src/anim11.o \
+			src/anim12.o \
 			src/sleepface.o
 
 EXTRACLEAN	+=	src/*.d src/*.o \

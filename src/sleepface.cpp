@@ -18,6 +18,8 @@
 #include "anim8.h"
 #include "anim9.h"
 #include "anim10.h"
+#include "anim11.h"
+#include "anim12.h"
 
 //-----------------------------------------------------------------------------
 // Animation storage
@@ -34,12 +36,13 @@ static const Animation animations[] = {
     { anim2, 12  },
     { anim3, 10  },
     { anim4, 19  },
-    { anim5,  1  },
     { anim6, 10  },
     { anim7, 16  },
     { anim8, 10  },
     { anim9, 20  },
     { anim10, 16  },
+    { anim11, 16  },
+    { anim12, 16  },
 };
 
 constexpr size_t   kNumAnimations   = sizeof(animations) / sizeof(animations[0]);
@@ -50,20 +53,48 @@ constexpr uint32_t kDefaultFrameMs  = 200;          // 200 ms per frame
 //-----------------------------------------------------------------------------
 // Draw a single 128×32 frame via SetPixel + Flip()
 //-----------------------------------------------------------------------------
-
 static void DrawFrame(CLCD *lcd, const uint8_t frame[32][128], int8_t dx, int8_t dy)
 {
     lcd->Clear(false);
+
     for (int y = 0; y < 32; ++y)
     {
         for (int x = 0; x < 128; ++x)
         {
-            if (frame[y][x])
+            // inverted pixel: original is 0
+            if (!frame[y][x])
+            {
+                // check 8 neighbors for at least one other zero
+                int zeros = 0;
+                for (int yy = y - 1; yy <= y + 1; ++yy)
+                {
+                    for (int xx = x - 1; xx <= x + 1; ++xx)
+                    {
+                        if (yy == y && xx == x) 
+                            continue;
+                        if (yy < 0 || yy >= 32 || xx < 0 || xx >= 128) 
+                            continue;
+                        if (!frame[yy][xx]) 
+                        {
+                            ++zeros;
+                            yy = y + 1; // break outer
+                            break;
+                        }
+                    }
+                }
+                if (zeros == 0)
+                    continue;   // no neighbor zeros → skip this isolated speck
+
+                // draw the “cluster” pixel
                 lcd->SetPixel(x + dx, y + dy);
+            }
         }
     }
+
     lcd->Flip();
 }
+
+
 
 //-----------------------------------------------------------------------------
 // Play one animation on the given LCD with jitter, neutral pause, breathing
