@@ -1,0 +1,118 @@
+//
+// config.def
+//
+// mt32-pi - A baremetal MIDI synthesizer for Raspberry Pi
+// Copyright (C) 2020-2023 Dale Whinham <daleyo@gmail.com>
+//
+// This file is part of mt32-pi.
+//
+// mt32-pi is free software: you can redistribute it and/or modify it under the
+// terms of the GNU General Public License as published by the Free Software
+// Foundation, either version 3 of the License, or (at your option) any later
+// version.
+//
+// mt32-pi is distributed in the hope that it will be useful, but WITHOUT ANY
+// WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+// FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+// details.
+//
+// You should have received a copy of the GNU General Public License along with
+// mt32-pi. If not, see <http://www.gnu.org/licenses/>.
+//
+
+// Config option definition file.
+// Format: CFG(<INI name>, <type>, <class member name>, <default value>, <extra parser function args>...)
+
+#ifndef BEGIN_SECTION
+#define BEGIN_SECTION(SECTION)
+#endif
+
+#ifndef CFG
+#define CFG(INI_NAME, TYPE, MEMBER_NAME, DEFAULT, ...)
+#endif
+
+#ifndef END_SECTION
+#define END_SECTION
+#endif
+
+BEGIN_SECTION(system)
+CFG(verbose,			bool,				SystemVerbose,				false						)
+CFG(default_synth,		TSystemDefaultSynth,		SystemDefaultSynth,			TSystemDefaultSynth::MT32			)
+CFG(usb,			bool,				SystemUSB,				true						)
+CFG(i2c_baud_rate,		int,				SystemI2CBaudRate,			400000						)
+CFG(power_save_timeout,		int,				SystemPowerSaveTimeout,			300						)
+END_SECTION
+
+BEGIN_SECTION(midi)
+CFG(gpio_baud_rate,		int,				MIDIGPIOBaudRate,			31250						)
+CFG(gpio_thru,			bool,				MIDIGPIOThru,				false						)
+CFG(usb_serial_baud_rate,	int,				MIDIUSBSerialBaudRate,			38400						)
+END_SECTION
+
+BEGIN_SECTION(audio)
+CFG(output_device,		TAudioOutputDevice,		AudioOutputDevice,			TAudioOutputDevice::PWM				)
+CFG(sample_rate,		int,				AudioSampleRate,			48000						)
+CFG(chunk_size,			int,				AudioChunkSize,				256						)
+CFG(reversed_stereo,		bool,				AudioReversedStereo,			false						)
+END_SECTION
+
+BEGIN_SECTION(control)
+CFG(scheme,			TControlScheme,			ControlScheme,				TControlScheme::None				)
+CFG(encoder_type,		TEncoderType,			ControlEncoderType,			TEncoderType::Full				)
+CFG(encoder_reversed,		bool,				ControlEncoderReversed,			false						)
+CFG(mister,			bool,				ControlMister,				false						)
+CFG(switch_timeout,		int,				ControlSwitchTimeout,			3						)
+END_SECTION
+
+BEGIN_SECTION(mt32emu)
+CFG(gain,			float,				MT32EmuGain,				1.0f						)
+CFG(reverb_gain,		float,				MT32EmuReverbGain,			1.0f						)
+CFG(resampler_quality,		TMT32EmuResamplerQuality,	MT32EmuResamplerQuality,		TMT32EmuResamplerQuality::Good			)
+CFG(midi_channels,		TMT32EmuMIDIChannels,		MT32EmuMIDIChannels,			TMT32EmuMIDIChannels::Standard			)
+CFG(rom_set,			TMT32EmuROMSet,			MT32EmuROMSet,				TMT32EmuROMSet::MT32Old				)
+CFG(reversed_stereo,		bool,				MT32EmuReversedStereo,			false						)
+END_SECTION
+
+BEGIN_SECTION(fluidsynth)
+CFG(soundfont,			int,				FluidSynthSoundFont,			0						)
+CFG(polyphony,			int,				FluidSynthPolyphony,			200						)
+CFG(gain,			float,				FluidSynthDefaultGain,			0.2f						)
+CFG(reverb,			bool,				FluidSynthDefaultReverbActive,		true						)
+CFG(reverb_damping,		float,				FluidSynthDefaultReverbDamping,		0.0						)
+CFG(reverb_level,		float,				FluidSynthDefaultReverbLevel,		0.9						)
+CFG(reverb_room_size,		float,				FluidSynthDefaultReverbRoomSize,	0.2						)
+CFG(reverb_width, 		float,				FluidSynthDefaultReverbWidth,		0.5						)
+CFG(chorus,			bool,				FluidSynthDefaultChorusActive,		true						)
+CFG(chorus_depth,		float,				FluidSynthDefaultChorusDepth,		8.0						)
+CFG(chorus_level,		float,				FluidSynthDefaultChorusLevel,		2.0						)
+CFG(chorus_voices,		int,				FluidSynthDefaultChorusVoices,		3						)
+CFG(chorus_speed,		float,				FluidSynthDefaultChorusSpeed,		0.3						)
+END_SECTION
+
+BEGIN_SECTION(lcd)
+CFG(type,			TLCDType,			LCDType,				TLCDType::None					)
+CFG(width,			int,				LCDWidth,				20						)
+CFG(height,			int,				LCDHeight,				2						)
+CFG(i2c_lcd_address,		int,				LCDI2CLCDAddress,			0x3c,					true	)
+CFG(rotation,			TLCDRotation,			LCDRotation,				TLCDRotation::Normal				)
+CFG(mirror,			TLCDMirror,			LCDMirror,				TLCDMirror::Normal				)
+END_SECTION
+
+BEGIN_SECTION(network)
+CFG(mode,			TNetworkMode,			NetworkMode,				TNetworkMode::Off				)
+CFG(dhcp,			bool,				NetworkDHCP,				true						)
+CFG(ip_address,			CIPAddress,			NetworkIPAddress,			0xc0a80164					)
+CFG(subnet_mask,		CIPAddress,			NetworkSubnetMask,			0xffffff00					)
+CFG(default_gateway,		CIPAddress,			NetworkDefaultGateway,			0xc0a80101					)
+CFG(dns_server,			CIPAddress,			NetworkDNSServer,			0xc0a80101					)
+CFG(hostname,			CString,			NetworkHostname,			"mt32-pi"					)
+CFG(rtp_midi,			bool,				NetworkRTPMIDI,				true						)
+CFG(udp_midi,			bool,				NetworkUDPMIDI,				true						)
+CFG(ftp,			bool,				NetworkFTPServer,			true						)
+CFG(ftp_username,		CString,			NetworkFTPUsername,			"mt32-pi"					)
+CFG(ftp_password,		CString,			NetworkFTPPassword,			"mt32-pi"					)
+END_SECTION
+
+#undef BEGIN_SECTION
+#undef CFG
+#undef END_SECTION
