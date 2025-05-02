@@ -1,31 +1,31 @@
 src/rommanager.o src/rommanager.d: src/rommanager.cpp \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/logger.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/device.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/ptrlist.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/types.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/assert.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/macros.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/timer.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/interrupt.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/bcm2835int.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/exceptionstub.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/string.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/stdarg.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/sysconfig.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/memorymap.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/memorymap64.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/spinlock.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/synchronize.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/synchronize64.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/time.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/addon/fatfs/ff.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/addon/fatfs/ffconf.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/stdint.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/machine/_default_types.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/features.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/_newlib_version.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/_intsup.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/_stdint.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/logger.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/device.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/ptrlist.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/types.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/assert.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/macros.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/timer.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/interrupt.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/bcm2835int.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/exceptionstub.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/string.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/stdarg.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/sysconfig.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/memorymap.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/memorymap64.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/spinlock.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/synchronize.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/synchronize64.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/time.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/ff.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/ffconf.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/stdint.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/machine/_default_types.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/features.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/_newlib_version.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/_intsup.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/_stdint.h \
  include/rommanager.h build-munt/include/mt32emu/mt32emu.h \
  build-munt/include/mt32emu/config.h build-munt/include/mt32emu/globals.h \
  build-munt/include/mt32emu/Types.h build-munt/include/mt32emu/File.h \
@@ -43,16 +43,16 @@ src/rommanager.o src/rommanager.d: src/rommanager.cpp \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/bits/memoryfwd.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/bits/postypes.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/cwchar \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/wchar.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/_ansi.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/newlib.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/config.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/machine/ieeefp.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/reent.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/_types.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/machine/_types.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/lock.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/cdefs.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/wchar.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/_ansi.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/newlib.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/config.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/machine/ieeefp.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/reent.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/_types.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/machine/_types.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/lock.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/cdefs.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/lib/gcc/aarch64-none-elf/11.3.1/include/stdarg.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/exception \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/bits/exception.h \
@@ -84,10 +84,10 @@ src/rommanager.o src/rommanager.d: src/rommanager.cpp \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/bits/localefwd.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/aarch64-none-elf/bits/c++locale.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/clocale \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/locale.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/_ansi.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/locale.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/_ansi.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/cctype \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/ctype.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/ctype.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/bits/ios_base.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/ext/atomicity.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/aarch64-none-elf/bits/gthr.h \
@@ -112,17 +112,17 @@ src/rommanager.o src/rommanager.d: src/rommanager.cpp \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/cstdlib \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/stdlib.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/_ansi.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/machine/stdlib.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/machine/stdlib.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/bits/std_abs.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/cstdio \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/stdio.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/types.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/_pthreadtypes.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/machine/types.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/stdio.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/stdio.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/types.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/_pthreadtypes.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/machine/types.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/stdio.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/cerrno \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/errno.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/errno.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/errno.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/errno.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/bits/charconv.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/bits/functional_hash.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/bits/basic_string.tcc \
@@ -135,7 +135,7 @@ src/rommanager.o src/rommanager.d: src/rommanager.cpp \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/bits/basic_ios.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/bits/locale_facets.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/cwctype \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/wctype.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/wctype.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/aarch64-none-elf/bits/ctype_base.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/bits/streambuf_iterator.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/aarch64-none-elf/bits/ctype_inline.h \
@@ -151,10 +151,10 @@ src/rommanager.o src/rommanager.d: src/rommanager.cpp \
  build-munt/include/mt32emu/ROMInfo.h build-munt/include/mt32emu/Synth.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/cstdarg \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/cstring \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/string.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/string.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/string.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/string.h \
  build-munt/include/mt32emu/Enumerations.h \
  build-munt/include/mt32emu/MidiStreamParser.h \
  build-munt/include/mt32emu/SampleRateConverter.h \
  include/synth/mt32romset.h include/utility.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/util.h
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/util.h

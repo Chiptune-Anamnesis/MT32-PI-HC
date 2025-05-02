@@ -28,6 +28,7 @@
 #include "lcd/ui.h"
 #include "synth/synthbase.h"
 #include "utility.h"
+#include "mt32pi.h"
 
 constexpr u32 ScrollDelayMillis = 1500;
 constexpr u32 ScrollRateMillis = 175;
@@ -450,4 +451,9 @@ void CUserInterface::DrawSysExBitmap(CLCD& LCD, u8 nFirstRow, u8 nRows) const
 			LCD.DrawFilledRect(nScaledX, nScaledY, nScaledX + nScaleX - 1, nScaledY + nScaleY - 1);
 		}
 	}
+}
+
+void CUserInterface::ShowCuteFaceAnimation(CLCD& /*lcd*/)
+{
+    CMT32Pi::SleepFaceThread(nullptr);
 }

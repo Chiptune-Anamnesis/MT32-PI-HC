@@ -1,50 +1,50 @@
 src/pisound.o src/pisound.d: src/pisound.cpp \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/logger.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/device.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/ptrlist.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/types.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/assert.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/macros.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/timer.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/interrupt.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/bcm2835int.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/exceptionstub.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/string.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/stdarg.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/sysconfig.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/memorymap.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/memorymap64.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/spinlock.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/synchronize.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/synchronize64.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/time.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/util.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/logger.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/device.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/ptrlist.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/types.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/assert.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/macros.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/timer.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/interrupt.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/bcm2835int.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/exceptionstub.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/string.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/stdarg.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/sysconfig.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/memorymap.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/memorymap64.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/spinlock.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/synchronize.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/synchronize64.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/time.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/util.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/cstdio \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/aarch64-none-elf/bits/c++config.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/aarch64-none-elf/bits/os_defines.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/aarch64-none-elf/bits/cpu_defines.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/stdio.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/_ansi.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/newlib.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/_newlib_version.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/config.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/machine/ieeefp.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/features.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/cdefs.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/machine/_default_types.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/stdio.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/_ansi.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/newlib.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/_newlib_version.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/config.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/machine/ieeefp.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/features.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/cdefs.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/machine/_default_types.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/lib/gcc/aarch64-none-elf/11.3.1/include/stddef.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/lib/gcc/aarch64-none-elf/11.3.1/include/stdarg.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/reent.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/_ansi.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/_types.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/machine/_types.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/lock.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/types.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/_stdint.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/_pthreadtypes.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/machine/types.h \
- /home/ryan/mt32-pi/external/circle-stdlib/install/aarch64-none-circle/include/sys/stdio.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/reent.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/_ansi.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/_types.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/machine/_types.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/lock.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/types.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/_stdint.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/_pthreadtypes.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/machine/types.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/stdio.h \
  include/pisound.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/gpiomanager.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/gpiopin.h \
- /home/ryan/mt32-pi/external/circle-stdlib/libs/circle/include/circle/spimaster.h
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/gpiomanager.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/gpiopin.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/spimaster.h

@@ -80,6 +80,7 @@ public:
 	static CMT32Pi* s_pThis;
 	bool m_bManualSleepMode = false;
 	u32 animationStartedAt = 0;
+	static int SleepFaceThread(void *arg);
 private:
 	enum class TLCDLogType
 	{
