@@ -1072,7 +1072,7 @@ void CMT32Pi::ProcessEventQueue()
 void CMT32Pi::ProcessButtonEvent(const TButtonEvent& Event)
 {
     const u32 now = CTimer::GetClockTicks();
-    const u32 lockoutDuration = Utility::MillisToTicks(3000);
+    const u32 lockoutDuration = Utility::MillisToTicks(1000);
 
     // During animation lockout, ignore ALL button events
     if (m_bShowSleepAnimation && (now - animationStartedAt < lockoutDuration))

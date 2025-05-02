@@ -33,6 +33,8 @@ constexpr u8 GPIOPinEncoderDAT    = 23;
 
 bool m_PendingSingleClick = false;
 u32 m_SingleClickTime = 0;
+constexpr u32 kDoubleClickWindowMs   = 300;  // max time between presses to be a “double‑click”
+constexpr u32 kSingleClickTimeoutMs  = 300;  // how long to wait before confirming a single‑click
 
 constexpr u8 ButtonMask = 1 << static_cast<u8>(TButton::Button1) |
 			  1 << static_cast<u8>(TButton::Button2) |
@@ -83,7 +85,7 @@ void CControlSimpleEncoder::ReadGPIOPins()
 		const u32 delta = Utility::TicksToMillis(now - m_LastEncoderClickTime);
 		m_LastEncoderClickTime = now;
 	
-		if (m_PendingSingleClick && delta < 400) // Double click detected
+		if (m_PendingSingleClick && delta < kDoubleClickWindowMs) // Double click detected
 		{
 			m_PendingSingleClick = false;
 	
@@ -109,7 +111,7 @@ void CControlSimpleEncoder::ReadGPIOPins()
 	}
 	
 	// Timeout: if pending and no second press, send single click
-	if (m_PendingSingleClick && Utility::TicksToMillis(now - m_SingleClickTime) > 400)
+	if (m_PendingSingleClick && Utility::TicksToMillis(now - m_SingleClickTime) > kSingleClickTimeoutMs)
 	{
 		m_PendingSingleClick = false;
 	
