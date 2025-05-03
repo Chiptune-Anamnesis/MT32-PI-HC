@@ -27,7 +27,9 @@
 ## Project status
 
 <img title="mt32-pi running on the Raspberry Pi 3 A+" width="280rem" align="right" src="images/mt32-pi-wht-pet.jpeg">
-This repository is a clone of the original where I will be making my own changes and is not affiliated with the original project. This repository is for a specific hardware build of the device by HobbyChop and therefore this readme file will be stripped down to include only what is related to that specific device.
+This repository is a clone of the original where I will be making my own changes and is not affiliated with the original project. This repository is for a specific hardware build of the device by HobbyChop and therefore this readme file will be stripped down to include only what is related to that specific device. 
+
+The goal of this development is focused on features for musicians, and the focus will not be on mister integration.
 
 - [I²S Hi-Fi DAC support][I²S Hi-Fi DACs].
   * This is the recommended audio output method for the best quality audio.
