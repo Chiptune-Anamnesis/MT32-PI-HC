@@ -25,7 +25,7 @@
 
 ## Known planned features
 
-- Make device remembers last used soundfont and will select it automatically upon device rebootm, power loss, etc.
+- Make device remembers last used soundfont and will select it automatically upon device reboot, power loss, etc.
 
 ## Project status
 
