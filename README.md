@@ -23,7 +23,7 @@
 
 - Encoder button press (twice) displays animated pixel pet.
 
-## Known planned features
+## Planned features
 
 - Make device remembers last used soundfont and will select it automatically upon device reboot, power loss, etc.
 
