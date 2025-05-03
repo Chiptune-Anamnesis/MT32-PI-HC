@@ -667,7 +667,7 @@ void CMT32Pi::OnShortMessage(u32 nMessage)
 	// Active sensing
 	if (nMessage == 0xFE)
 	{
-		m_bAbortSleepAnimation = true; // exit animation
+		//m_bAbortSleepAnimation = true; // exit animation
 		m_bActiveSenseFlag = true;
 		return;
 	}
@@ -685,7 +685,7 @@ void CMT32Pi::OnShortMessage(u32 nMessage)
 void CMT32Pi::OnSysExMessage(const u8* pData, size_t nSize)
 {
 	// Flash LED
-	m_bAbortSleepAnimation = true; // exit animation
+	//m_bAbortSleepAnimation = true; // exit animation
 	LEDOn();
 
 	// If we don't consume the SysEx message, forward it to the synthesizer

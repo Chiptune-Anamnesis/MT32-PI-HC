@@ -5024,8 +5024,9 @@ Address of section .init set to 0x80000
                 0x0000000000086f30                non-virtual thunk to CMT32Pi::OnEnterPowerSavingMode()
  *fill*         0x0000000000086f64        0xc 
  .text._ZN7CMT32Pi14OnShortMessageEj
-                0x0000000000086f70       0xa0 src/mt32pi.o
+                0x0000000000086f70       0x9c src/mt32pi.o
                 0x0000000000086f70                CMT32Pi::OnShortMessage(unsigned int)
+ *fill*         0x000000000008700c        0x4 
  .text._ZThn48_N7CMT32Pi14OnShortMessageEj
                 0x0000000000087010        0x8 src/mt32pi.o
                 0x0000000000087010                non-virtual thunk to CMT32Pi::OnShortMessage(unsigned int)
@@ -5091,8 +5092,9 @@ Address of section .init set to 0x80000
                 0x0000000000087f10                CMT32Pi::ParseCustomSysEx(unsigned char const*, unsigned long)
  *fill*         0x000000000008800c        0x4 
  .text._ZN7CMT32Pi14OnSysExMessageEPKhm
-                0x0000000000088010       0x80 src/mt32pi.o
+                0x0000000000088010       0x7c src/mt32pi.o
                 0x0000000000088010                CMT32Pi::OnSysExMessage(unsigned char const*, unsigned long)
+ *fill*         0x000000000008808c        0x4 
  .text._ZThn48_N7CMT32Pi14OnSysExMessageEPKhm
                 0x0000000000088090        0x8 src/mt32pi.o
                 0x0000000000088090                non-virtual thunk to CMT32Pi::OnSysExMessage(unsigned char const*, unsigned long)
@@ -18097,7 +18099,7 @@ LOAD linker stubs
  .debug_abbrev  0x0000000000045935       0x14 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(cas_4_4.o)
 
 .debug_loclists
-                0x0000000000000000    0x93981
+                0x0000000000000000    0x93987
  .debug_loclists
                 0x0000000000000000     0x18a4 src/config.o
  .debug_loclists
@@ -18131,439 +18133,439 @@ LOAD linker stubs
  .debug_loclists
                 0x0000000000008268      0x5de src/midiparser.o
  .debug_loclists
-                0x0000000000008846     0x274e src/mt32pi.o
+                0x0000000000008846     0x2754 src/mt32pi.o
  .debug_loclists
-                0x000000000000af94     0x1731 src/net/applemidi.o
+                0x000000000000af9a     0x1731 src/net/applemidi.o
  .debug_loclists
-                0x000000000000c6c5      0x1ae src/net/ftpdaemon.o
+                0x000000000000c6cb      0x1ae src/net/ftpdaemon.o
  .debug_loclists
-                0x000000000000c873     0x2684 src/net/ftpworker.o
+                0x000000000000c879     0x2684 src/net/ftpworker.o
  .debug_loclists
-                0x000000000000eef7      0x186 src/net/udpmidi.o
+                0x000000000000eefd      0x186 src/net/udpmidi.o
  .debug_loclists
-                0x000000000000f07d      0x658 src/pisound.o
+                0x000000000000f083      0x658 src/pisound.o
  .debug_loclists
-                0x000000000000f6d5      0x25e src/power.o
+                0x000000000000f6db      0x25e src/power.o
  .debug_loclists
-                0x000000000000f933      0x90e src/rommanager.o
+                0x000000000000f939      0x90e src/rommanager.o
  .debug_loclists
-                0x0000000000010241      0xb62 src/soundfontmanager.o
+                0x0000000000010247      0xb62 src/soundfontmanager.o
  .debug_loclists
-                0x0000000000010da3      0xc2b src/synth/mt32synth.o
+                0x0000000000010da9      0xc2b src/synth/mt32synth.o
  .debug_loclists
-                0x00000000000119ce     0x210a src/synth/soundfontsynth.o
+                0x00000000000119d4     0x210a src/synth/soundfontsynth.o
  .debug_loclists
-                0x0000000000013ad8      0x9aa src/zoneallocator.o
+                0x0000000000013ade      0x9aa src/zoneallocator.o
  .debug_loclists
-                0x0000000000014482      0x426 src/sleepface.o
+                0x0000000000014488      0x426 src/sleepface.o
  .debug_loclists
-                0x00000000000148a8      0x724 /home/ryan/MT32-PI-HC/external/inih/ini.o
+                0x00000000000148ae      0x724 /home/ryan/MT32-PI-HC/external/inih/ini.o
  .debug_loclists
-                0x0000000000014fcc     0x8388 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(ff.o)
+                0x0000000000014fd2     0x8388 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(ff.o)
  .debug_loclists
-                0x000000000001d354      0x455 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(diskio.o)
+                0x000000000001d35a      0x455 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(diskio.o)
  .debug_loclists
-                0x000000000001d7a9      0x3cb /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(ffsystem.o)
+                0x000000000001d7af      0x3cb /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(ffsystem.o)
  .debug_loclists
-                0x000000000001db74      0x306 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(ffunicode.o)
+                0x000000000001db7a      0x306 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(ffunicode.o)
  .debug_loclists
-                0x000000000001de7a     0x16bc /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/SDCard/libsdcard.a(emmc.o)
+                0x000000000001de80     0x16bc /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/SDCard/libsdcard.a(emmc.o)
  .debug_loclists
-                0x000000000001f536      0x44c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/SDCard/libsdcard.a(mmchost.o)
+                0x000000000001f53c      0x44c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/SDCard/libsdcard.a(mmchost.o)
  .debug_loclists
-                0x000000000001f982     0x280d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/SDCard/libsdcard.a(sdhost.o)
+                0x000000000001f988     0x280d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/SDCard/libsdcard.a(sdhost.o)
  .debug_loclists
-                0x000000000002218f      0x107 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpasupplicant.o)
+                0x0000000000022195      0x107 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpasupplicant.o)
  .debug_loclists
-                0x0000000000022296      0x579 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eloop_circle.o)
+                0x000000000002229c      0x579 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eloop_circle.o)
  .debug_loclists
-                0x000000000002280f      0x6c2 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(os_circle.o)
+                0x0000000000022815      0x6c2 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(os_circle.o)
  .debug_loclists
-                0x0000000000022ed1       0x4e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(main_circle.o)
+                0x0000000000022ed7       0x4e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(main_circle.o)
  .debug_loclists
-                0x0000000000022f1f     0x2eb4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_supplicant.o)
+                0x0000000000022f25     0x2eb4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_supplicant.o)
  .debug_loclists
-                0x0000000000025dd3     0x1eb1 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpas_glue.o)
+                0x0000000000025dd9     0x1eb1 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpas_glue.o)
  .debug_loclists
-                0x0000000000027c84     0x121d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(driver_circle.o)
+                0x0000000000027c8a     0x121d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(driver_circle.o)
  .debug_loclists
-                0x0000000000028ea1      0x479 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(scan_helpers.o)
+                0x0000000000028ea7      0x479 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(scan_helpers.o)
  .debug_loclists
-                0x000000000002931a     0x1b87 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eapol_supp_sm.o)
+                0x0000000000029320     0x1b87 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eapol_supp_sm.o)
  .debug_loclists
-                0x000000000002aea1     0x2240 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eap.o)
+                0x000000000002aea7     0x2240 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eap.o)
  .debug_loclists
-                0x000000000002d0e1      0x4d6 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eap_methods.o)
+                0x000000000002d0e7      0x4d6 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eap_methods.o)
  .debug_loclists
-                0x000000000002d5b7      0x655 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(l2_packet_circle.o)
+                0x000000000002d5bd      0x655 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(l2_packet_circle.o)
  .debug_loclists
-                0x000000000002dc0c      0xa8d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(pmksa_cache.o)
+                0x000000000002dc12      0xa8d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(pmksa_cache.o)
  .debug_loclists
-                0x000000000002e699      0xaa4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(preauth.o)
+                0x000000000002e69f      0xaa4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(preauth.o)
  .debug_loclists
-                0x000000000002f13d     0x32ad /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa.o)
+                0x000000000002f143     0x32ad /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa.o)
  .debug_loclists
-                0x00000000000323ea      0xcdf /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_ie.o)
+                0x00000000000323f0      0xcdf /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_ie.o)
  .debug_loclists
-                0x00000000000330c9      0x9de /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(common.o)
+                0x00000000000330cf      0x9de /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(common.o)
  .debug_loclists
-                0x0000000000033aa7     0x1019 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_debug.o)
+                0x0000000000033aad     0x1019 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_debug.o)
  .debug_loclists
-                0x0000000000034ac0      0xa85 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpabuf.o)
+                0x0000000000034ac6      0xa85 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpabuf.o)
  .debug_loclists
-                0x0000000000035545      0x236 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(blacklist.o)
+                0x000000000003554b      0x236 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(blacklist.o)
  .debug_loclists
-                0x000000000003577b     0x348a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(config.o)
+                0x0000000000035781     0x348a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(config.o)
  .debug_loclists
-                0x0000000000038c05     0x26e0 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(config_file_circle.o)
+                0x0000000000038c0b     0x26e0 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(config_file_circle.o)
  .debug_loclists
-                0x000000000003b2e5     0x1c2e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(events.o)
+                0x000000000003b2eb     0x1c2e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(events.o)
  .debug_loclists
-                0x000000000003cf13       0x30 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(notify.o)
+                0x000000000003cf19       0x30 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(notify.o)
  .debug_loclists
-                0x000000000003cf43      0x8cc /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(scan.o)
+                0x000000000003cf49      0x8cc /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(scan.o)
  .debug_loclists
-                0x000000000003d80f      0x7b5 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_common.o)
+                0x000000000003d815      0x7b5 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_common.o)
  .debug_loclists
-                0x000000000003dfc4      0x162 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(aes-unwrap.o)
+                0x000000000003dfca      0x162 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(aes-unwrap.o)
  .debug_loclists
-                0x000000000003e126      0x565 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(md5-internal.o)
+                0x000000000003e12c      0x565 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(md5-internal.o)
  .debug_loclists
-                0x000000000003e68b      0x272 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(md5.o)
+                0x000000000003e691      0x272 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(md5.o)
  .debug_loclists
-                0x000000000003e8fd      0x1f3 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(rc4.o)
+                0x000000000003e903      0x1f3 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(rc4.o)
  .debug_loclists
-                0x000000000003eaf0      0x277 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(sha1-pbkdf2.o)
+                0x000000000003eaf6      0x277 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(sha1-pbkdf2.o)
  .debug_loclists
-                0x000000000003ed67      0x49c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(sha1.o)
+                0x000000000003ed6d      0x49c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(sha1.o)
  .debug_loclists
-                0x000000000003f203       0x1e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(tls_none.o)
+                0x000000000003f209       0x1e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(tls_none.o)
  .debug_loclists
-                0x000000000003f221      0x7c7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eap_common.o)
+                0x000000000003f227      0x7c7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eap_common.o)
  .debug_loclists
-                0x000000000003f9e8      0x4ba /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(base64.o)
+                0x000000000003f9ee      0x4ba /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(base64.o)
  .debug_loclists
-                0x000000000003fea2      0x352 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(aes-internal-dec.o)
+                0x000000000003fea8      0x352 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(aes-internal-dec.o)
  .debug_loclists
-                0x00000000000401f4       0x7d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(aes-internal.o)
+                0x00000000000401fa       0x7d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(aes-internal.o)
  .debug_loclists
-                0x0000000000040271      0xf4e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(sha1-internal.o)
+                0x0000000000040277      0xf4e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(sha1-internal.o)
  .debug_loclists
-                0x00000000000411bf      0xb02 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(bcm4343.o)
+                0x00000000000411c5      0xb02 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(bcm4343.o)
  .debug_loclists
-                0x0000000000041cc1     0x49ef /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(ether4330.o)
+                0x0000000000041cc7     0x49ef /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(ether4330.o)
  .debug_loclists
-                0x00000000000466b0      0xc44 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(emmc.o)
+                0x00000000000466b6      0xc44 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(emmc.o)
  .debug_loclists
-                0x00000000000472f4      0x589 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9arch.o)
+                0x00000000000472fa      0x589 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9arch.o)
  .debug_loclists
-                0x000000000004787d      0x246 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9chan.o)
+                0x0000000000047883      0x246 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9chan.o)
  .debug_loclists
-                0x0000000000047ac3      0x202 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9cmd.o)
+                0x0000000000047ac9      0x202 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9cmd.o)
  .debug_loclists
-                0x0000000000047cc5       0x75 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9error.o)
+                0x0000000000047ccb       0x75 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9error.o)
  .debug_loclists
-                0x0000000000047d3a      0x362 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9ether.o)
+                0x0000000000047d40      0x362 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9ether.o)
  .debug_loclists
-                0x000000000004809c      0x3bf /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9proc.o)
+                0x00000000000480a2      0x3bf /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9proc.o)
  .debug_loclists
-                0x000000000004845b      0x39f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9util.o)
+                0x0000000000048461      0x39f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9util.o)
  .debug_loclists
-                0x00000000000487fa      0x229 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/fs/libfs.a(partitionmanager.o)
+                0x0000000000048800      0x229 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/fs/libfs.a(partitionmanager.o)
  .debug_loclists
-                0x0000000000048a23      0x37b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/fs/libfs.a(partition.o)
+                0x0000000000048a29      0x37b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/fs/libfs.a(partition.o)
  .debug_loclists
-                0x0000000000048d9e      0x4d7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(console.o)
+                0x0000000000048da4      0x4d7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(console.o)
  .debug_loclists
-                0x0000000000049275      0x355 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(keyboardbuffer.o)
+                0x000000000004927b      0x355 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(keyboardbuffer.o)
  .debug_loclists
-                0x00000000000495ca      0x46a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(linediscipline.o)
+                0x00000000000495d0      0x46a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(linediscipline.o)
  .debug_loclists
-                0x0000000000049a34      0x2f9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(actled.o)
+                0x0000000000049a3a      0x2f9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(actled.o)
  .debug_loclists
-                0x0000000000049d2d      0x279 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(alloc.o)
+                0x0000000000049d33      0x279 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(alloc.o)
  .debug_loclists
-                0x0000000000049fa6       0x4f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(assert.o)
+                0x0000000000049fac       0x4f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(assert.o)
  .debug_loclists
-                0x0000000000049ff5      0x3ab /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(bcmpropertytags.o)
+                0x0000000000049ffb      0x3ab /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(bcmpropertytags.o)
  .debug_loclists
-                0x000000000004a3a0      0x86a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(cputhrottle.o)
+                0x000000000004a3a6      0x86a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(cputhrottle.o)
  .debug_loclists
-                0x000000000004ac0a      0x176 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(debug.o)
+                0x000000000004ac10      0x176 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(debug.o)
  .debug_loclists
-                0x000000000004ad80      0x329 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(device.o)
+                0x000000000004ad86      0x329 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(device.o)
  .debug_loclists
-                0x000000000004b0a9      0x648 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(devicenameservice.o)
+                0x000000000004b0af      0x648 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(devicenameservice.o)
  .debug_loclists
-                0x000000000004b6f1     0x1755 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(dmachannel.o)
+                0x000000000004b6f7     0x1755 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(dmachannel.o)
  .debug_loclists
-                0x000000000004ce46      0x44e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(gpiomanager.o)
+                0x000000000004ce4c      0x44e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(gpiomanager.o)
  .debug_loclists
-                0x000000000004d294     0x1055 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(gpiopin.o)
+                0x000000000004d29a     0x1055 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(gpiopin.o)
  .debug_loclists
-                0x000000000004e2e9      0x888 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(i2cmaster.o)
+                0x000000000004e2ef      0x888 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(i2cmaster.o)
  .debug_loclists
-                0x000000000004eb71      0x3fe /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(koptions.o)
+                0x000000000004eb77      0x3fe /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(koptions.o)
  .debug_loclists
-                0x000000000004ef6f      0x7a7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(logger.o)
+                0x000000000004ef75      0x7a7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(logger.o)
  .debug_loclists
-                0x000000000004f716      0x481 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(machineinfo.o)
+                0x000000000004f71c      0x481 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(machineinfo.o)
  .debug_loclists
-                0x000000000004fb97      0x46f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(multicore.o)
+                0x000000000004fb9d      0x46f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(multicore.o)
  .debug_loclists
-                0x0000000000050006       0xad /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(nulldevice.o)
+                0x000000000005000c       0xad /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(nulldevice.o)
  .debug_loclists
-                0x00000000000500b3      0x3e9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(ptrlist.o)
+                0x00000000000500b9      0x3e9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(ptrlist.o)
  .debug_loclists
-                0x000000000005049c      0xf6a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(serial.o)
+                0x00000000000504a2      0xf6a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(serial.o)
  .debug_loclists
-                0x0000000000051406      0x8f0 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(spimaster.o)
+                0x000000000005140c      0x8f0 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(spimaster.o)
  .debug_loclists
-                0x0000000000051cf6       0xb7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(spinlock.o)
+                0x0000000000051cfc       0xb7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(spinlock.o)
  .debug_loclists
-                0x0000000000051dad     0x2b53 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(string.o)
+                0x0000000000051db3     0x2b53 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(string.o)
  .debug_loclists
-                0x0000000000054900       0x7e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(sysinit.o)
+                0x0000000000054906       0x7e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(sysinit.o)
  .debug_loclists
-                0x000000000005497e      0xe08 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(timer.o)
+                0x0000000000054984      0xe08 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(timer.o)
  .debug_loclists
-                0x0000000000055786      0x25b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(usertimer.o)
+                0x000000000005578c      0x25b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(usertimer.o)
  .debug_loclists
-                0x00000000000559e1      0x10f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(util.o)
+                0x00000000000559e7      0x10f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(util.o)
  .debug_loclists
-                0x0000000000055af0      0x210 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(virtualgpiopin.o)
+                0x0000000000055af6      0x210 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(virtualgpiopin.o)
  .debug_loclists
-                0x0000000000055d00       0x30 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(chainboot.o)
+                0x0000000000055d06       0x30 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(chainboot.o)
  .debug_loclists
-                0x0000000000055d30      0x565 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(macaddress.o)
+                0x0000000000055d36      0x565 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(macaddress.o)
  .debug_loclists
-                0x0000000000056295       0xf8 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(netdevice.o)
+                0x000000000005629b       0xf8 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(netdevice.o)
  .debug_loclists
-                0x000000000005638d       0xac /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(new.o)
+                0x0000000000056393       0xac /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(new.o)
  .debug_loclists
-                0x0000000000056439      0x4da /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(heapallocator.o)
+                0x000000000005643f      0x4da /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(heapallocator.o)
  .debug_loclists
-                0x0000000000056913      0x1ac /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(pageallocator.o)
+                0x0000000000056919      0x1ac /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(pageallocator.o)
  .debug_loclists
-                0x0000000000056abf      0x176 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(exceptionhandler64.o)
+                0x0000000000056ac5      0x176 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(exceptionhandler64.o)
  .debug_loclists
-                0x0000000000056c35      0x266 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(memory64.o)
+                0x0000000000056c3b      0x266 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(memory64.o)
  .debug_loclists
-                0x0000000000056e9b      0x895 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(synchronize64.o)
+                0x0000000000056ea1      0x895 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(synchronize64.o)
  .debug_loclists
-                0x0000000000057730      0x175 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(translationtable64.o)
+                0x0000000000057736      0x175 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(translationtable64.o)
  .debug_loclists
-                0x00000000000578a5       0xcc /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(bcmrandom.o)
+                0x00000000000578ab       0xcc /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(bcmrandom.o)
  .debug_loclists
-                0x0000000000057971      0xb63 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(interrupt.o)
+                0x0000000000057977      0xb63 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(interrupt.o)
  .debug_loclists
-                0x00000000000584d4      0x2f4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(bcmmailbox.o)
+                0x00000000000584da      0x2f4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(bcmmailbox.o)
  .debug_loclists
-                0x00000000000587c8      0x3c8 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netsubsystem.o)
+                0x00000000000587ce      0x3c8 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netsubsystem.o)
  .debug_loclists
-                0x0000000000058b90       0xc2 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(nettask.o)
+                0x0000000000058b96       0xc2 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(nettask.o)
  .debug_loclists
-                0x0000000000058c52      0xb62 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(socket.o)
+                0x0000000000058c58      0xb62 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(socket.o)
  .debug_loclists
-                0x00000000000597b4     0x126c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(transportlayer.o)
+                0x00000000000597ba     0x126c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(transportlayer.o)
  .debug_loclists
-                0x000000000005aa20      0xba5 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(networklayer.o)
+                0x000000000005aa26      0xba5 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(networklayer.o)
  .debug_loclists
-                0x000000000005b5c5      0x8af /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(linklayer.o)
+                0x000000000005b5cb      0x8af /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(linklayer.o)
  .debug_loclists
-                0x000000000005be74      0x343 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netdevlayer.o)
+                0x000000000005be7a      0x343 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netdevlayer.o)
  .debug_loclists
-                0x000000000005c1b7      0x11e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(phytask.o)
+                0x000000000005c1bd      0x11e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(phytask.o)
  .debug_loclists
-                0x000000000005c2d5      0xb98 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(arphandler.o)
+                0x000000000005c2db      0xb98 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(arphandler.o)
  .debug_loclists
-                0x000000000005ce6d      0x7a2 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(icmphandler.o)
+                0x000000000005ce73      0x7a2 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(icmphandler.o)
  .debug_loclists
-                0x000000000005d60f      0x2cd /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(routecache.o)
+                0x000000000005d615      0x2cd /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(routecache.o)
  .debug_loclists
-                0x000000000005d8dc      0x2b4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netconnection.o)
+                0x000000000005d8e2      0x2b4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netconnection.o)
  .debug_loclists
-                0x000000000005db90     0x11dc /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(udpconnection.o)
+                0x000000000005db96     0x11dc /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(udpconnection.o)
  .debug_loclists
-                0x000000000005ed6c     0x239d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(tcpconnection.o)
+                0x000000000005ed72     0x239d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(tcpconnection.o)
  .debug_loclists
-                0x0000000000061109      0x3c7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(retransmissionqueue.o)
+                0x000000000006110f      0x3c7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(retransmissionqueue.o)
  .debug_loclists
-                0x00000000000614d0      0x1ed /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(retranstimeoutcalc.o)
+                0x00000000000614d6      0x1ed /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(retranstimeoutcalc.o)
  .debug_loclists
-                0x00000000000616bd      0x9ad /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(tcprejector.o)
+                0x00000000000616c3      0x9ad /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(tcprejector.o)
  .debug_loclists
-                0x000000000006206a      0x3a8 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netconfig.o)
+                0x0000000000062070      0x3a8 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netconfig.o)
  .debug_loclists
-                0x0000000000062412      0x80c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(ipaddress.o)
+                0x0000000000062418      0x80c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(ipaddress.o)
  .debug_loclists
-                0x0000000000062c1e      0x328 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netqueue.o)
+                0x0000000000062c24      0x328 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netqueue.o)
  .debug_loclists
-                0x0000000000062f46      0x586 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(checksumcalculator.o)
+                0x0000000000062f4c      0x586 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(checksumcalculator.o)
  .debug_loclists
-                0x00000000000634cc      0xd6b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(dhcpclient.o)
+                0x00000000000634d2      0xd6b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(dhcpclient.o)
  .debug_loclists
-                0x0000000000064237      0x2cf /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netsocket.o)
+                0x000000000006423d      0x2cf /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netsocket.o)
  .debug_loclists
-                0x0000000000064506      0x46a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(dnsclient.o)
+                0x000000000006450c      0x46a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(dnsclient.o)
  .debug_loclists
-                0x0000000000064970      0x326 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(task.o)
+                0x0000000000064976      0x326 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(task.o)
  .debug_loclists
-                0x0000000000064c96      0xdaf /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(scheduler.o)
+                0x0000000000064c9c      0xdaf /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(scheduler.o)
  .debug_loclists
-                0x0000000000065a45      0x141 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(synchronizationevent.o)
+                0x0000000000065a4b      0x141 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(synchronizationevent.o)
  .debug_loclists
-                0x0000000000065b86       0xf7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(mutex.o)
+                0x0000000000065b8c       0xf7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(mutex.o)
  .debug_loclists
-                0x0000000000065c7d     0x18e3 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(hdmisoundbasedevice.o)
+                0x0000000000065c83     0x18e3 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(hdmisoundbasedevice.o)
  .debug_loclists
-                0x0000000000067560      0xc68 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(i2ssoundbasedevice.o)
+                0x0000000000067566      0xc68 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(i2ssoundbasedevice.o)
  .debug_loclists
-                0x00000000000681c8      0x957 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(pwmsoundbasedevice.o)
+                0x00000000000681ce      0x957 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(pwmsoundbasedevice.o)
  .debug_loclists
-                0x0000000000068b1f     0x204b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(soundbasedevice.o)
+                0x0000000000068b25     0x204b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(soundbasedevice.o)
  .debug_loclists
-                0x000000000006ab6a      0x814 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(pcm512xsoundcontroller.o)
+                0x000000000006ab70      0x814 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(pcm512xsoundcontroller.o)
  .debug_loclists
-                0x000000000006b37e      0x255 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(wm8960soundcontroller.o)
+                0x000000000006b384      0x255 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(wm8960soundcontroller.o)
  .debug_loclists
-                0x000000000006b5d3      0x6aa /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(dmasoundbuffers.o)
+                0x000000000006b5d9      0x6aa /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(dmasoundbuffers.o)
  .debug_loclists
-                0x000000000006bc7d      0x85b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbhostcontroller.o)
+                0x000000000006bc83      0x85b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbhostcontroller.o)
  .debug_loclists
-                0x000000000006c4d8      0x654 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbkeyboard.o)
+                0x000000000006c4de      0x654 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbkeyboard.o)
  .debug_loclists
-                0x000000000006cb2c     0x1001 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbmidi.o)
+                0x000000000006cb32     0x1001 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbmidi.o)
  .debug_loclists
-                0x000000000006db2d      0x4cb /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbrequest.o)
+                0x000000000006db33      0x4cb /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbrequest.o)
  .debug_loclists
-                0x000000000006dff8      0x9ca /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbstandardhub.o)
+                0x000000000006dffe      0x9ca /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbstandardhub.o)
  .debug_loclists
-                0x000000000006e9c2     0x20bf /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcidevice.o)
+                0x000000000006e9c8     0x20bf /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcidevice.o)
  .debug_loclists
-                0x0000000000070a81      0x476 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschednper.o)
+                0x0000000000070a87      0x476 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschednper.o)
  .debug_loclists
-                0x0000000000070ef7      0x341 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschednsplit.o)
+                0x0000000000070efd      0x341 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschednsplit.o)
  .debug_loclists
-                0x0000000000071238      0x4ce /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschedper.o)
+                0x000000000007123e      0x4ce /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschedper.o)
  .debug_loclists
-                0x0000000000071706      0x258 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciregister.o)
+                0x000000000007170c      0x258 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciregister.o)
  .debug_loclists
-                0x000000000007195e      0x210 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcirootport.o)
+                0x0000000000071964      0x210 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcirootport.o)
  .debug_loclists
-                0x0000000000071b6e      0x807 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcixactqueue.o)
+                0x0000000000071b74      0x807 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcixactqueue.o)
  .debug_loclists
-                0x0000000000072375      0xb45 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcixferstagedata.o)
+                0x000000000007237b      0xb45 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcixferstagedata.o)
  .debug_loclists
-                0x0000000000072eba      0x4ff /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschediso.o)
+                0x0000000000072ec0      0x4ff /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschediso.o)
  .debug_loclists
-                0x00000000000733b9      0xf74 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbdevice.o)
+                0x00000000000733bf      0xf74 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbdevice.o)
  .debug_loclists
-                0x000000000007432d      0x2df /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbdevicefactory.o)
+                0x0000000000074333      0x2df /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbdevicefactory.o)
  .debug_loclists
-                0x000000000007460c      0x439 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbendpoint.o)
+                0x0000000000074612      0x439 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbendpoint.o)
  .debug_loclists
-                0x0000000000074a45      0x4e0 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbfunction.o)
+                0x0000000000074a4b      0x4e0 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbfunction.o)
  .debug_loclists
-                0x0000000000074f25      0x910 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbhiddevice.o)
+                0x0000000000074f2b      0x910 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbhiddevice.o)
  .debug_loclists
-                0x0000000000075835      0xdcc /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbmassdevice.o)
+                0x000000000007583b      0xdcc /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbmassdevice.o)
  .debug_loclists
-                0x0000000000076601      0x345 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbstring.o)
+                0x0000000000076607      0x345 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbstring.o)
  .debug_loclists
-                0x0000000000076946      0x3b9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialch341.o)
+                0x000000000007694c      0x3b9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialch341.o)
  .debug_loclists
-                0x0000000000076cff      0x329 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialcp2102.o)
+                0x0000000000076d05      0x329 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialcp2102.o)
  .debug_loclists
-                0x0000000000077028      0x2af /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialpl2303.o)
+                0x000000000007702e      0x2af /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialpl2303.o)
  .debug_loclists
-                0x00000000000772d7      0x37a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialft231x.o)
+                0x00000000000772dd      0x37a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialft231x.o)
  .debug_loclists
-                0x0000000000077651      0x1f9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialcdc.o)
+                0x0000000000077657      0x1f9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialcdc.o)
  .debug_loclists
-                0x000000000007784a      0xdb8 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(lan7800.o)
+                0x0000000000077850      0xdb8 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(lan7800.o)
  .debug_loclists
-                0x0000000000078602      0xff8 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(smsc951x.o)
+                0x0000000000078608      0xff8 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(smsc951x.o)
  .debug_loclists
-                0x00000000000795fa      0x685 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbcdcethernet.o)
+                0x0000000000079600      0x685 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbcdcethernet.o)
  .debug_loclists
-                0x0000000000079c7f      0x444 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbconfigparser.o)
+                0x0000000000079c85      0x444 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbconfigparser.o)
  .debug_loclists
-                0x000000000007a0c3      0x830 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserial.o)
+                0x000000000007a0c9      0x830 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserial.o)
  .debug_loclists
-                0x000000000007a8f3      0x6ac /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(class_type_info.o)
+                0x000000000007a8f9      0x6ac /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(class_type_info.o)
  .debug_loclists
-                0x000000000007af9f       0x27 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(del_ops.o)
+                0x000000000007afa5       0x27 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(del_ops.o)
  .debug_loclists
-                0x000000000007afc6       0x27 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(del_opv.o)
+                0x000000000007afcc       0x27 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(del_opv.o)
  .debug_loclists
-                0x000000000007afed       0x75 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_aux_runtime.o)
+                0x000000000007aff3       0x75 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_aux_runtime.o)
  .debug_loclists
-                0x000000000007b062     0x13f0 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_personality.o)
+                0x000000000007b068     0x13f0 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_personality.o)
  .debug_loclists
-                0x000000000007c452       0xe9 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_terminate.o)
+                0x000000000007c458       0xe9 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_terminate.o)
  .debug_loclists
-                0x000000000007c53b      0x2a2 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_throw.o)
+                0x000000000007c541      0x2a2 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_throw.o)
  .debug_loclists
-                0x000000000007c7dd       0xa4 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(guard.o)
+                0x000000000007c7e3       0xa4 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(guard.o)
  .debug_loclists
-                0x000000000007c881       0x77 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(guard_error.o)
+                0x000000000007c887       0x77 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(guard_error.o)
  .debug_loclists
-                0x000000000007c8f8       0x85 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(new_op.o)
+                0x000000000007c8fe       0x85 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(new_op.o)
  .debug_loclists
-                0x000000000007c97d       0x27 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(new_opv.o)
+                0x000000000007c983       0x27 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(new_opv.o)
  .debug_loclists
-                0x000000000007c9a4      0x5f6 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(si_class_type_info.o)
+                0x000000000007c9aa      0x5f6 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(si_class_type_info.o)
  .debug_loclists
-                0x000000000007cf9a      0x104 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(tinfo.o)
+                0x000000000007cfa0      0x104 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(tinfo.o)
  .debug_loclists
-                0x000000000007d09e     0x1407 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(vmi_class_type_info.o)
+                0x000000000007d0a4     0x1407 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(vmi_class_type_info.o)
  .debug_loclists
-                0x000000000007e4a5       0xb1 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(vterminate.o)
+                0x000000000007e4ab       0xb1 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(vterminate.o)
  .debug_loclists
-                0x000000000007e556       0x83 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(bad_alloc.o)
+                0x000000000007e55c       0x83 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(bad_alloc.o)
  .debug_loclists
-                0x000000000007e5d9       0x83 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(bad_array_new.o)
+                0x000000000007e5df       0x83 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(bad_array_new.o)
  .debug_loclists
-                0x000000000007e65c     0xb26e /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(cp-demangle.o)
+                0x000000000007e662     0xb26e /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(cp-demangle.o)
  .debug_loclists
-                0x00000000000898ca       0x27 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(del_op.o)
+                0x00000000000898d0       0x27 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(del_op.o)
  .debug_loclists
-                0x00000000000898f1      0x481 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_alloc.o)
+                0x00000000000898f7      0x481 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_alloc.o)
  .debug_loclists
-                0x0000000000089d72       0x57 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_call.o)
+                0x0000000000089d78       0x57 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_call.o)
  .debug_loclists
-                0x0000000000089dc9      0x264 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_catch.o)
+                0x0000000000089dcf      0x264 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_catch.o)
  .debug_loclists
-                0x000000000008a02d      0x108 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_exception.o)
+                0x000000000008a033      0x108 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_exception.o)
  .debug_loclists
-                0x000000000008a135       0x73 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_type.o)
+                0x000000000008a13b       0x73 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_type.o)
  .debug_loclists
-                0x000000000008a1a8       0x45 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(new_handler.o)
+                0x000000000008a1ae       0x45 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(new_handler.o)
  .debug_loclists
-                0x000000000008a1ed      0x8d1 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(trunctfdf2.o)
+                0x000000000008a1f3      0x8d1 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(trunctfdf2.o)
  .debug_loclists
-                0x000000000008aabe     0x47e7 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(unwind-dw2.o)
+                0x000000000008aac4     0x47e7 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(unwind-dw2.o)
  .debug_loclists
-                0x000000000008f2a5     0x243a /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(unwind-dw2-fde.o)
+                0x000000000008f2ab     0x243a /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(unwind-dw2-fde.o)
  .debug_loclists
-                0x00000000000916df       0x27 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(sfp-exceptions.o)
+                0x00000000000916e5       0x27 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(sfp-exceptions.o)
  .debug_loclists
-                0x0000000000091706      0x540 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(keyboardbehaviour.o)
+                0x000000000009170c      0x540 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(keyboardbehaviour.o)
  .debug_loclists
-                0x0000000000091c46      0x39d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(keymap.o)
+                0x0000000000091c4c      0x39d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(keymap.o)
  .debug_loclists
-                0x0000000000091fe3      0x562 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(classallocator.o)
+                0x0000000000091fe9      0x562 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(classallocator.o)
  .debug_loclists
-                0x0000000000092545      0x517 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(gpioclock.o)
+                0x000000000009254b      0x517 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(gpioclock.o)
  .debug_loclists
-                0x0000000000092a5c      0x318 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(ptrarray.o)
+                0x0000000000092a62      0x318 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(ptrarray.o)
  .debug_loclists
-                0x0000000000092d74      0x1e0 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(numberpool.o)
+                0x0000000000092d7a      0x1e0 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(numberpool.o)
  .debug_loclists
-                0x0000000000092f54      0x733 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(ptrlistfiq.o)
+                0x0000000000092f5a      0x733 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(ptrlistfiq.o)
  .debug_loclists
-                0x0000000000093687      0x2fa /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(dyncast.o)
+                0x000000000009368d      0x2fa /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(dyncast.o)
 
 .debug_aranges  0x0000000000000000     0x5580
  .debug_aranges
@@ -19074,7 +19076,7 @@ LOAD linker stubs
                 0x0000000000005550       0x30 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(cas_4_4.o)
 
 .debug_rnglists
-                0x0000000000000000     0xdcf1
+                0x0000000000000000     0xdcf3
  .debug_rnglists
                 0x0000000000000000      0x519 src/config.o
  .debug_rnglists
@@ -19108,387 +19110,387 @@ LOAD linker stubs
  .debug_rnglists
                 0x00000000000014e8      0x14c src/midiparser.o
  .debug_rnglists
-                0x0000000000001634      0x645 src/mt32pi.o
+                0x0000000000001634      0x647 src/mt32pi.o
  .debug_rnglists
-                0x0000000000001c79      0x1e1 src/net/applemidi.o
+                0x0000000000001c7b      0x1e1 src/net/applemidi.o
  .debug_rnglists
-                0x0000000000001e5a       0x6c src/net/ftpdaemon.o
+                0x0000000000001e5c       0x6c src/net/ftpdaemon.o
  .debug_rnglists
-                0x0000000000001ec6      0x4ff src/net/ftpworker.o
+                0x0000000000001ec8      0x4ff src/net/ftpworker.o
  .debug_rnglists
-                0x00000000000023c5       0x64 src/net/udpmidi.o
+                0x00000000000023c7       0x64 src/net/udpmidi.o
  .debug_rnglists
-                0x0000000000002429      0x12d src/pisound.o
+                0x000000000000242b      0x12d src/pisound.o
  .debug_rnglists
-                0x0000000000002556       0x73 src/power.o
+                0x0000000000002558       0x73 src/power.o
  .debug_rnglists
-                0x00000000000025c9      0x1a6 src/rommanager.o
+                0x00000000000025cb      0x1a6 src/rommanager.o
  .debug_rnglists
-                0x000000000000276f      0x1d7 src/soundfontmanager.o
+                0x0000000000002771      0x1d7 src/soundfontmanager.o
  .debug_rnglists
-                0x0000000000002946      0x242 src/synth/mt32synth.o
+                0x0000000000002948      0x242 src/synth/mt32synth.o
  .debug_rnglists
-                0x0000000000002b88      0x378 src/synth/soundfontsynth.o
+                0x0000000000002b8a      0x378 src/synth/soundfontsynth.o
  .debug_rnglists
-                0x0000000000002f00      0x135 src/zoneallocator.o
+                0x0000000000002f02      0x135 src/zoneallocator.o
  .debug_rnglists
-                0x0000000000003035      0x150 src/sleepface.o
+                0x0000000000003037      0x150 src/sleepface.o
  .debug_rnglists
-                0x0000000000003185       0xdc /home/ryan/MT32-PI-HC/external/inih/ini.o
+                0x0000000000003187       0xdc /home/ryan/MT32-PI-HC/external/inih/ini.o
  .debug_rnglists
-                0x0000000000003261      0x83c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(ff.o)
+                0x0000000000003263      0x83c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(ff.o)
  .debug_rnglists
-                0x0000000000003a9d       0x1c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(diskio.o)
+                0x0000000000003a9f       0x1c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(diskio.o)
  .debug_rnglists
-                0x0000000000003ab9       0x22 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(ffsystem.o)
+                0x0000000000003abb       0x22 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(ffsystem.o)
  .debug_rnglists
-                0x0000000000003adb       0xd9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/SDCard/libsdcard.a(emmc.o)
+                0x0000000000003add       0xd9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/SDCard/libsdcard.a(emmc.o)
  .debug_rnglists
-                0x0000000000003bb4       0x1c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/SDCard/libsdcard.a(mmchost.o)
+                0x0000000000003bb6       0x1c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/SDCard/libsdcard.a(mmchost.o)
  .debug_rnglists
-                0x0000000000003bd0      0x522 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/SDCard/libsdcard.a(sdhost.o)
+                0x0000000000003bd2      0x522 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/SDCard/libsdcard.a(sdhost.o)
  .debug_rnglists
-                0x00000000000040f2       0x17 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eloop_circle.o)
+                0x00000000000040f4       0x17 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eloop_circle.o)
  .debug_rnglists
-                0x0000000000004109       0x22 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(os_circle.o)
+                0x000000000000410b       0x22 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(os_circle.o)
  .debug_rnglists
-                0x000000000000412b      0x2a4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_supplicant.o)
+                0x000000000000412d      0x2a4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_supplicant.o)
  .debug_rnglists
-                0x00000000000043cf      0x190 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpas_glue.o)
+                0x00000000000043d1      0x190 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpas_glue.o)
  .debug_rnglists
-                0x000000000000455f       0xac /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(driver_circle.o)
+                0x0000000000004561       0xac /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(driver_circle.o)
  .debug_rnglists
-                0x000000000000460b       0x2d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(scan_helpers.o)
+                0x000000000000460d       0x2d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(scan_helpers.o)
  .debug_rnglists
-                0x0000000000004638      0x204 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eapol_supp_sm.o)
+                0x000000000000463a      0x204 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eapol_supp_sm.o)
  .debug_rnglists
-                0x000000000000483c      0x43b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eap.o)
+                0x000000000000483e      0x43b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eap.o)
  .debug_rnglists
-                0x0000000000004c77       0x77 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(pmksa_cache.o)
+                0x0000000000004c79       0x77 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(pmksa_cache.o)
  .debug_rnglists
-                0x0000000000004cee       0x67 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(preauth.o)
+                0x0000000000004cf0       0x67 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(preauth.o)
  .debug_rnglists
-                0x0000000000004d55      0x33d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa.o)
+                0x0000000000004d57      0x33d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa.o)
  .debug_rnglists
-                0x0000000000005092       0x7a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_ie.o)
+                0x0000000000005094       0x7a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_ie.o)
  .debug_rnglists
-                0x000000000000510c       0xdd /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(common.o)
+                0x000000000000510e       0xdd /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(common.o)
  .debug_rnglists
-                0x00000000000051e9      0x178 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_debug.o)
+                0x00000000000051eb      0x178 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_debug.o)
  .debug_rnglists
-                0x0000000000005361      0x249 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpabuf.o)
+                0x0000000000005363      0x249 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpabuf.o)
  .debug_rnglists
-                0x00000000000055aa       0x15 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(blacklist.o)
+                0x00000000000055ac       0x15 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(blacklist.o)
  .debug_rnglists
-                0x00000000000055bf       0xfc /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(config.o)
+                0x00000000000055c1       0xfc /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(config.o)
  .debug_rnglists
-                0x00000000000056bb      0x135 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(config_file_circle.o)
+                0x00000000000056bd      0x135 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(config_file_circle.o)
  .debug_rnglists
-                0x00000000000057f0      0x2f3 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(events.o)
+                0x00000000000057f2      0x2f3 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(events.o)
  .debug_rnglists
-                0x0000000000005ae3       0xbf /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(scan.o)
+                0x0000000000005ae5       0xbf /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(scan.o)
  .debug_rnglists
-                0x0000000000005ba2       0x1c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_common.o)
+                0x0000000000005ba4       0x1c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_common.o)
  .debug_rnglists
-                0x0000000000005bbe       0x31 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(md5-internal.o)
+                0x0000000000005bc0       0x31 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(md5-internal.o)
  .debug_rnglists
-                0x0000000000005bef       0x17 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(sha1-pbkdf2.o)
+                0x0000000000005bf1       0x17 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(sha1-pbkdf2.o)
  .debug_rnglists
-                0x0000000000005c06       0x6c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eap_common.o)
+                0x0000000000005c08       0x6c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eap_common.o)
  .debug_rnglists
-                0x0000000000005c72      0x172 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(aes-internal-dec.o)
+                0x0000000000005c74      0x172 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(aes-internal-dec.o)
  .debug_rnglists
-                0x0000000000005de4       0x21 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(sha1-internal.o)
+                0x0000000000005de6       0x21 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(sha1-internal.o)
  .debug_rnglists
-                0x0000000000005e05       0x9c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(bcm4343.o)
+                0x0000000000005e07       0x9c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(bcm4343.o)
  .debug_rnglists
-                0x0000000000005ea1      0x8c1 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(ether4330.o)
+                0x0000000000005ea3      0x8c1 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(ether4330.o)
  .debug_rnglists
-                0x0000000000006762      0x1ac /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(emmc.o)
+                0x0000000000006764      0x1ac /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(emmc.o)
  .debug_rnglists
-                0x000000000000690e       0x8e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9arch.o)
+                0x0000000000006910       0x8e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9arch.o)
  .debug_rnglists
-                0x000000000000699c       0x3b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9cmd.o)
+                0x000000000000699e       0x3b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9cmd.o)
  .debug_rnglists
-                0x00000000000069d7       0x3b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9ether.o)
+                0x00000000000069d9       0x3b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9ether.o)
  .debug_rnglists
-                0x0000000000006a12       0x59 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9proc.o)
+                0x0000000000006a14       0x59 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9proc.o)
  .debug_rnglists
-                0x0000000000006a6b       0x5b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/fs/libfs.a(partitionmanager.o)
+                0x0000000000006a6d       0x5b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/fs/libfs.a(partitionmanager.o)
  .debug_rnglists
-                0x0000000000006ac6       0x22 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/fs/libfs.a(partition.o)
+                0x0000000000006ac8       0x22 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/fs/libfs.a(partition.o)
  .debug_rnglists
-                0x0000000000006ae8       0x42 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(console.o)
+                0x0000000000006aea       0x42 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(console.o)
  .debug_rnglists
-                0x0000000000006b2a       0x51 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(keyboardbuffer.o)
+                0x0000000000006b2c       0x51 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(keyboardbuffer.o)
  .debug_rnglists
-                0x0000000000006b7b       0x53 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(linediscipline.o)
+                0x0000000000006b7d       0x53 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(linediscipline.o)
  .debug_rnglists
-                0x0000000000006bce       0x92 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(actled.o)
+                0x0000000000006bd0       0x92 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(actled.o)
  .debug_rnglists
-                0x0000000000006c60       0x1e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(alloc.o)
+                0x0000000000006c62       0x1e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(alloc.o)
  .debug_rnglists
-                0x0000000000006c7e       0x47 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(cputhrottle.o)
+                0x0000000000006c80       0x47 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(cputhrottle.o)
  .debug_rnglists
-                0x0000000000006cc5       0x31 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(debug.o)
+                0x0000000000006cc7       0x31 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(debug.o)
  .debug_rnglists
-                0x0000000000006cf6       0x16 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(device.o)
+                0x0000000000006cf8       0x16 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(device.o)
  .debug_rnglists
-                0x0000000000006d0c       0x1c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(devicenameservice.o)
+                0x0000000000006d0e       0x1c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(devicenameservice.o)
  .debug_rnglists
-                0x0000000000006d28       0xeb /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(dmachannel.o)
+                0x0000000000006d2a       0xeb /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(dmachannel.o)
  .debug_rnglists
-                0x0000000000006e13       0x69 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(gpiomanager.o)
+                0x0000000000006e15       0x69 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(gpiomanager.o)
  .debug_rnglists
-                0x0000000000006e7c      0x11b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(gpiopin.o)
+                0x0000000000006e7e      0x11b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(gpiopin.o)
  .debug_rnglists
-                0x0000000000006f97       0xcd /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(i2cmaster.o)
+                0x0000000000006f99       0xcd /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(i2cmaster.o)
  .debug_rnglists
-                0x0000000000007064      0x113 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(koptions.o)
+                0x0000000000007066      0x113 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(koptions.o)
  .debug_rnglists
-                0x0000000000007177       0x1c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(logger.o)
+                0x0000000000007179       0x1c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(logger.o)
  .debug_rnglists
-                0x0000000000007193       0x21 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(machineinfo.o)
+                0x0000000000007195       0x21 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(machineinfo.o)
  .debug_rnglists
-                0x00000000000071b4       0xe8 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(multicore.o)
+                0x00000000000071b6       0xe8 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(multicore.o)
  .debug_rnglists
-                0x000000000000729c       0x13 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(nulldevice.o)
+                0x000000000000729e       0x13 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(nulldevice.o)
  .debug_rnglists
-                0x00000000000072af       0x2e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(ptrlist.o)
+                0x00000000000072b1       0x2e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(ptrlist.o)
  .debug_rnglists
-                0x00000000000072dd       0xd2 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(serial.o)
+                0x00000000000072df       0xd2 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(serial.o)
  .debug_rnglists
-                0x00000000000073af       0x5e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(spimaster.o)
+                0x00000000000073b1       0x5e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(spimaster.o)
  .debug_rnglists
-                0x000000000000740d       0x26 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(spinlock.o)
+                0x000000000000740f       0x26 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(spinlock.o)
  .debug_rnglists
-                0x0000000000007433      0x22c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(string.o)
+                0x0000000000007435      0x22c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(string.o)
  .debug_rnglists
-                0x000000000000765f       0x2d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(sysinit.o)
+                0x0000000000007661       0x2d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(sysinit.o)
  .debug_rnglists
-                0x000000000000768c      0x11e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(timer.o)
+                0x000000000000768e      0x11e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(timer.o)
  .debug_rnglists
-                0x00000000000077aa       0x5f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(usertimer.o)
+                0x00000000000077ac       0x5f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(usertimer.o)
  .debug_rnglists
-                0x0000000000007809       0x88 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(virtualgpiopin.o)
+                0x000000000000780b       0x88 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(virtualgpiopin.o)
  .debug_rnglists
-                0x0000000000007891       0x5b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(macaddress.o)
+                0x0000000000007893       0x5b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(macaddress.o)
  .debug_rnglists
-                0x00000000000078ec       0x4f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(netdevice.o)
+                0x00000000000078ee       0x4f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(netdevice.o)
  .debug_rnglists
-                0x000000000000793b       0x13 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(new.o)
+                0x000000000000793d       0x13 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(new.o)
  .debug_rnglists
-                0x000000000000794e       0x33 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(heapallocator.o)
+                0x0000000000007950       0x33 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(heapallocator.o)
  .debug_rnglists
-                0x0000000000007981       0x39 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(exceptionhandler64.o)
+                0x0000000000007983       0x39 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(exceptionhandler64.o)
  .debug_rnglists
-                0x00000000000079ba       0x2d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(memory64.o)
+                0x00000000000079bc       0x2d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(memory64.o)
  .debug_rnglists
-                0x00000000000079e7      0x14e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(synchronize64.o)
+                0x00000000000079e9      0x14e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(synchronize64.o)
  .debug_rnglists
-                0x0000000000007b35       0x81 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(bcmrandom.o)
+                0x0000000000007b37       0x81 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(bcmrandom.o)
  .debug_rnglists
-                0x0000000000007bb6      0x1b7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(interrupt.o)
+                0x0000000000007bb8      0x1b7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(interrupt.o)
  .debug_rnglists
-                0x0000000000007d6d      0x13c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(bcmmailbox.o)
+                0x0000000000007d6f      0x13c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(bcmmailbox.o)
  .debug_rnglists
-                0x0000000000007ea9       0x22 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netsubsystem.o)
+                0x0000000000007eab       0x22 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netsubsystem.o)
  .debug_rnglists
-                0x0000000000007ecb       0x13 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(nettask.o)
+                0x0000000000007ecd       0x13 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(nettask.o)
  .debug_rnglists
-                0x0000000000007ede       0x4e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(socket.o)
+                0x0000000000007ee0       0x4e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(socket.o)
  .debug_rnglists
-                0x0000000000007f2c       0xd5 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(transportlayer.o)
+                0x0000000000007f2e       0xd5 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(transportlayer.o)
  .debug_rnglists
-                0x0000000000008001       0x5c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(networklayer.o)
+                0x0000000000008003       0x5c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(networklayer.o)
  .debug_rnglists
-                0x000000000000805d       0x21 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(linklayer.o)
+                0x000000000000805f       0x21 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(linklayer.o)
  .debug_rnglists
-                0x000000000000807e       0x36 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netdevlayer.o)
+                0x0000000000008080       0x36 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netdevlayer.o)
  .debug_rnglists
-                0x00000000000080b4       0x32 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(phytask.o)
+                0x00000000000080b6       0x32 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(phytask.o)
  .debug_rnglists
-                0x00000000000080e6       0x71 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(arphandler.o)
+                0x00000000000080e8       0x71 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(arphandler.o)
  .debug_rnglists
-                0x0000000000008157       0x2c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(icmphandler.o)
+                0x0000000000008159       0x2c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(icmphandler.o)
  .debug_rnglists
-                0x0000000000008183       0x32 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(routecache.o)
+                0x0000000000008185       0x32 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(routecache.o)
  .debug_rnglists
-                0x00000000000081b5       0x17 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netconnection.o)
+                0x00000000000081b7       0x17 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netconnection.o)
  .debug_rnglists
-                0x00000000000081cc       0x46 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(udpconnection.o)
+                0x00000000000081ce       0x46 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(udpconnection.o)
  .debug_rnglists
-                0x0000000000008212      0x15e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(tcpconnection.o)
+                0x0000000000008214      0x15e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(tcpconnection.o)
  .debug_rnglists
-                0x0000000000008370       0xb3 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(tcprejector.o)
+                0x0000000000008372       0xb3 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(tcprejector.o)
  .debug_rnglists
-                0x0000000000008423       0x60 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(ipaddress.o)
+                0x0000000000008425       0x60 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(ipaddress.o)
  .debug_rnglists
-                0x0000000000008483       0x29 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netqueue.o)
+                0x0000000000008485       0x29 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netqueue.o)
  .debug_rnglists
-                0x00000000000084ac       0xee /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(dhcpclient.o)
+                0x00000000000084ae       0xee /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(dhcpclient.o)
  .debug_rnglists
-                0x000000000000859a       0x6a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netsocket.o)
+                0x000000000000859c       0x6a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netsocket.o)
  .debug_rnglists
-                0x0000000000008604       0x40 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(dnsclient.o)
+                0x0000000000008606       0x40 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(dnsclient.o)
  .debug_rnglists
-                0x0000000000008644       0x22 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(task.o)
+                0x0000000000008646       0x22 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(task.o)
  .debug_rnglists
-                0x0000000000008666      0x146 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(scheduler.o)
+                0x0000000000008668      0x146 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(scheduler.o)
  .debug_rnglists
-                0x00000000000087ac       0x19 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(synchronizationevent.o)
+                0x00000000000087ae       0x19 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(synchronizationevent.o)
  .debug_rnglists
-                0x00000000000087c5       0x19 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(mutex.o)
+                0x00000000000087c7       0x19 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(mutex.o)
  .debug_rnglists
-                0x00000000000087de      0x4b8 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(hdmisoundbasedevice.o)
+                0x00000000000087e0      0x4b8 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(hdmisoundbasedevice.o)
  .debug_rnglists
-                0x0000000000008c96      0x130 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(i2ssoundbasedevice.o)
+                0x0000000000008c98      0x130 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(i2ssoundbasedevice.o)
  .debug_rnglists
-                0x0000000000008dc6      0x1c1 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(pwmsoundbasedevice.o)
+                0x0000000000008dc8      0x1c1 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(pwmsoundbasedevice.o)
  .debug_rnglists
-                0x0000000000008f87      0x133 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(soundbasedevice.o)
+                0x0000000000008f89      0x133 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(soundbasedevice.o)
  .debug_rnglists
-                0x00000000000090ba       0x74 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(pcm512xsoundcontroller.o)
+                0x00000000000090bc       0x74 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(pcm512xsoundcontroller.o)
  .debug_rnglists
-                0x000000000000912e       0x8b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(wm8960soundcontroller.o)
+                0x0000000000009130       0x8b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(wm8960soundcontroller.o)
  .debug_rnglists
-                0x00000000000091b9       0xa9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(dmasoundbuffers.o)
+                0x00000000000091bb       0xa9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(dmasoundbuffers.o)
  .debug_rnglists
-                0x0000000000009262       0x47 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbhostcontroller.o)
+                0x0000000000009264       0x47 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbhostcontroller.o)
  .debug_rnglists
-                0x00000000000092a9       0xd2 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbkeyboard.o)
+                0x00000000000092ab       0xd2 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbkeyboard.o)
  .debug_rnglists
-                0x000000000000937b      0x112 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbmidi.o)
+                0x000000000000937d      0x112 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbmidi.o)
  .debug_rnglists
-                0x000000000000948d      0x161 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbstandardhub.o)
+                0x000000000000948f      0x161 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbstandardhub.o)
  .debug_rnglists
-                0x00000000000095ee      0x249 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcidevice.o)
+                0x00000000000095f0      0x249 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcidevice.o)
  .debug_rnglists
-                0x0000000000009837       0x5a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschednper.o)
+                0x0000000000009839       0x5a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschednper.o)
  .debug_rnglists
-                0x0000000000009891       0x44 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschednsplit.o)
+                0x0000000000009893       0x44 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschednsplit.o)
  .debug_rnglists
-                0x00000000000098d5       0x54 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschedper.o)
+                0x00000000000098d7       0x54 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschedper.o)
  .debug_rnglists
-                0x0000000000009929       0x13 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciregister.o)
+                0x000000000000992b       0x13 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciregister.o)
  .debug_rnglists
-                0x000000000000993c       0x42 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcirootport.o)
+                0x000000000000993e       0x42 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcirootport.o)
  .debug_rnglists
-                0x000000000000997e       0x8d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcixactqueue.o)
+                0x0000000000009980       0x8d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcixactqueue.o)
  .debug_rnglists
-                0x0000000000009a0b       0x62 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcixferstagedata.o)
+                0x0000000000009a0d       0x62 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcixferstagedata.o)
  .debug_rnglists
-                0x0000000000009a6d       0x71 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschediso.o)
+                0x0000000000009a6f       0x71 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschediso.o)
  .debug_rnglists
-                0x0000000000009ade      0x181 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbdevice.o)
+                0x0000000000009ae0      0x181 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbdevice.o)
  .debug_rnglists
-                0x0000000000009c5f       0x1c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbdevicefactory.o)
+                0x0000000000009c61       0x1c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbdevicefactory.o)
  .debug_rnglists
-                0x0000000000009c7b       0x39 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbendpoint.o)
+                0x0000000000009c7d       0x39 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbendpoint.o)
  .debug_rnglists
-                0x0000000000009cb4       0x75 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbfunction.o)
+                0x0000000000009cb6       0x75 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbfunction.o)
  .debug_rnglists
-                0x0000000000009d29       0x21 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbhiddevice.o)
+                0x0000000000009d2b       0x21 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbhiddevice.o)
  .debug_rnglists
-                0x0000000000009d4a       0xa4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbmassdevice.o)
+                0x0000000000009d4c       0xa4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbmassdevice.o)
  .debug_rnglists
-                0x0000000000009dee       0x2d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbstring.o)
+                0x0000000000009df0       0x2d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbstring.o)
  .debug_rnglists
-                0x0000000000009e1b       0x28 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialch341.o)
+                0x0000000000009e1d       0x28 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialch341.o)
  .debug_rnglists
-                0x0000000000009e43       0x28 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialcp2102.o)
+                0x0000000000009e45       0x28 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialcp2102.o)
  .debug_rnglists
-                0x0000000000009e6b       0x13 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialpl2303.o)
+                0x0000000000009e6d       0x13 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialpl2303.o)
  .debug_rnglists
-                0x0000000000009e7e       0x13 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialft231x.o)
+                0x0000000000009e80       0x13 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialft231x.o)
  .debug_rnglists
-                0x0000000000009e91       0x13 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialcdc.o)
+                0x0000000000009e93       0x13 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialcdc.o)
  .debug_rnglists
-                0x0000000000009ea4       0x80 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(lan7800.o)
+                0x0000000000009ea6       0x80 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(lan7800.o)
  .debug_rnglists
-                0x0000000000009f24       0xc3 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(smsc951x.o)
+                0x0000000000009f26       0xc3 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(smsc951x.o)
  .debug_rnglists
-                0x0000000000009fe7       0x7d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbcdcethernet.o)
+                0x0000000000009fe9       0x7d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbcdcethernet.o)
  .debug_rnglists
-                0x000000000000a064       0x52 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbconfigparser.o)
+                0x000000000000a066       0x52 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbconfigparser.o)
  .debug_rnglists
-                0x000000000000a0b6       0x6b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserial.o)
+                0x000000000000a0b8       0x6b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserial.o)
  .debug_rnglists
-                0x000000000000a121       0xcb /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(class_type_info.o)
+                0x000000000000a123       0xcb /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(class_type_info.o)
  .debug_rnglists
-                0x000000000000a1ec       0x17 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(del_ops.o)
+                0x000000000000a1ee       0x17 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(del_ops.o)
  .debug_rnglists
-                0x000000000000a203       0x17 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(del_opv.o)
+                0x000000000000a205       0x17 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(del_opv.o)
  .debug_rnglists
-                0x000000000000a21a       0x2b /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_aux_runtime.o)
+                0x000000000000a21c       0x2b /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_aux_runtime.o)
  .debug_rnglists
-                0x000000000000a245      0x18b /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_personality.o)
+                0x000000000000a247      0x18b /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_personality.o)
  .debug_rnglists
-                0x000000000000a3d0       0x83 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_terminate.o)
+                0x000000000000a3d2       0x83 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_terminate.o)
  .debug_rnglists
-                0x000000000000a453       0x45 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_throw.o)
+                0x000000000000a455       0x45 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_throw.o)
  .debug_rnglists
-                0x000000000000a498       0x64 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(guard.o)
+                0x000000000000a49a       0x64 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(guard.o)
  .debug_rnglists
-                0x000000000000a4fc       0x3b /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(guard_error.o)
+                0x000000000000a4fe       0x3b /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(guard_error.o)
  .debug_rnglists
-                0x000000000000a537       0x17 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(new_op.o)
+                0x000000000000a539       0x17 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(new_op.o)
  .debug_rnglists
-                0x000000000000a54e       0x17 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(new_opv.o)
+                0x000000000000a550       0x17 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(new_opv.o)
  .debug_rnglists
-                0x000000000000a565       0x7a /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(si_class_type_info.o)
+                0x000000000000a567       0x7a /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(si_class_type_info.o)
  .debug_rnglists
-                0x000000000000a5df       0x55 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(tinfo.o)
+                0x000000000000a5e1       0x55 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(tinfo.o)
  .debug_rnglists
-                0x000000000000a634      0x294 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(vmi_class_type_info.o)
+                0x000000000000a636      0x294 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(vmi_class_type_info.o)
  .debug_rnglists
-                0x000000000000a8c8       0x77 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(vterminate.o)
+                0x000000000000a8ca       0x77 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(vterminate.o)
  .debug_rnglists
-                0x000000000000a93f       0x3b /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(bad_alloc.o)
+                0x000000000000a941       0x3b /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(bad_alloc.o)
  .debug_rnglists
-                0x000000000000a97a       0x3b /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(bad_array_new.o)
+                0x000000000000a97c       0x3b /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(bad_array_new.o)
  .debug_rnglists
-                0x000000000000a9b5     0x20d8 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(cp-demangle.o)
+                0x000000000000a9b7     0x20d8 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(cp-demangle.o)
  .debug_rnglists
-                0x000000000000ca8d       0x17 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(del_op.o)
+                0x000000000000ca8f       0x17 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(del_op.o)
  .debug_rnglists
-                0x000000000000caa4       0xce /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_alloc.o)
+                0x000000000000caa6       0xce /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_alloc.o)
  .debug_rnglists
-                0x000000000000cb72       0x17 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_call.o)
+                0x000000000000cb74       0x17 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_call.o)
  .debug_rnglists
-                0x000000000000cb89       0x71 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_catch.o)
+                0x000000000000cb8b       0x71 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_catch.o)
  .debug_rnglists
-                0x000000000000cbfa       0x7b /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_exception.o)
+                0x000000000000cbfc       0x7b /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_exception.o)
  .debug_rnglists
-                0x000000000000cc75       0x17 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_globals.o)
+                0x000000000000cc77       0x17 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_globals.o)
  .debug_rnglists
-                0x000000000000cc8c       0x17 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_type.o)
+                0x000000000000cc8e       0x17 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_type.o)
  .debug_rnglists
-                0x000000000000cca3       0x21 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(new_handler.o)
+                0x000000000000cca5       0x21 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(new_handler.o)
  .debug_rnglists
-                0x000000000000ccc4       0xa1 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(trunctfdf2.o)
+                0x000000000000ccc6       0xa1 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(trunctfdf2.o)
  .debug_rnglists
-                0x000000000000cd65      0x80f /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(unwind-dw2.o)
+                0x000000000000cd67      0x80f /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(unwind-dw2.o)
  .debug_rnglists
-                0x000000000000d574      0x579 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(unwind-dw2-fde.o)
+                0x000000000000d576      0x579 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(unwind-dw2-fde.o)
  .debug_rnglists
-                0x000000000000daed       0x17 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(sfp-exceptions.o)
+                0x000000000000daef       0x17 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(sfp-exceptions.o)
  .debug_rnglists
-                0x000000000000db04       0x36 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(keyboardbehaviour.o)
+                0x000000000000db06       0x36 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(keyboardbehaviour.o)
  .debug_rnglists
-                0x000000000000db3a       0x2b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(keymap.o)
+                0x000000000000db3c       0x2b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(keymap.o)
  .debug_rnglists
-                0x000000000000db65       0x31 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(classallocator.o)
+                0x000000000000db67       0x31 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(classallocator.o)
  .debug_rnglists
-                0x000000000000db96       0x68 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(gpioclock.o)
+                0x000000000000db98       0x68 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(gpioclock.o)
  .debug_rnglists
-                0x000000000000dbfe       0x21 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(ptrarray.o)
+                0x000000000000dc00       0x21 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(ptrarray.o)
  .debug_rnglists
-                0x000000000000dc1f       0x8a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(ptrlistfiq.o)
+                0x000000000000dc21       0x8a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(ptrlistfiq.o)
  .debug_rnglists
-                0x000000000000dca9       0x48 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(dyncast.o)
+                0x000000000000dcab       0x48 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(dyncast.o)
 
-.debug_line     0x0000000000000000    0x742ce
+.debug_line     0x0000000000000000    0x742c7
  .debug_line    0x0000000000000000     0x160d src/config.o
  .debug_line    0x000000000000160d      0x3c2 src/control/control.o
  .debug_line    0x00000000000019cf      0x5de src/control/mister.o
@@ -19505,243 +19507,243 @@ LOAD linker stubs
  .debug_line    0x0000000000005c3e      0x346 src/main.o
  .debug_line    0x0000000000005f84      0x8e9 src/midimonitor.o
  .debug_line    0x000000000000686d      0x587 src/midiparser.o
- .debug_line    0x0000000000006df4     0x2ba2 src/mt32pi.o
- .debug_line    0x0000000000009996     0x1206 src/net/applemidi.o
- .debug_line    0x000000000000ab9c      0x304 src/net/ftpdaemon.o
- .debug_line    0x000000000000aea0     0x1e58 src/net/ftpworker.o
- .debug_line    0x000000000000ccf8      0x276 src/net/udpmidi.o
- .debug_line    0x000000000000cf6e      0x675 src/pisound.o
- .debug_line    0x000000000000d5e3      0x321 src/power.o
- .debug_line    0x000000000000d904      0x9c7 src/rommanager.o
- .debug_line    0x000000000000e2cb      0xad5 src/soundfontmanager.o
- .debug_line    0x000000000000eda0      0xcc6 src/synth/mt32synth.o
- .debug_line    0x000000000000fa66     0x14bc src/synth/soundfontsynth.o
- .debug_line    0x0000000000010f22      0x7fa src/zoneallocator.o
- .debug_line    0x000000000001171c       0x55 src/anim0.o
- .debug_line    0x0000000000011771       0x55 src/anim1.o
- .debug_line    0x00000000000117c6       0x55 src/anim2.o
- .debug_line    0x000000000001181b       0x55 src/anim3.o
- .debug_line    0x0000000000011870       0x55 src/anim4.o
- .debug_line    0x00000000000118c5       0x55 src/anim5.o
- .debug_line    0x000000000001191a       0x55 src/anim6.o
- .debug_line    0x000000000001196f       0x55 src/anim7.o
- .debug_line    0x00000000000119c4       0x55 src/anim8.o
- .debug_line    0x0000000000011a19       0x55 src/anim9.o
- .debug_line    0x0000000000011a6e       0x55 src/anim10.o
- .debug_line    0x0000000000011ac3       0x55 src/anim11.o
- .debug_line    0x0000000000011b18       0x55 src/anim12.o
- .debug_line    0x0000000000011b6d      0x4ee src/sleepface.o
- .debug_line    0x000000000001205b      0x5ff /home/ryan/MT32-PI-HC/external/inih/ini.o
- .debug_line    0x000000000001265a     0x62e0 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(ff.o)
- .debug_line    0x000000000001893a      0x305 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(diskio.o)
- .debug_line    0x0000000000018c3f      0x2d2 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(ffsystem.o)
- .debug_line    0x0000000000018f11      0x2a9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(ffunicode.o)
- .debug_line    0x00000000000191ba      0xfeb /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/SDCard/libsdcard.a(emmc.o)
- .debug_line    0x000000000001a1a5      0x43b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/SDCard/libsdcard.a(mmchost.o)
- .debug_line    0x000000000001a5e0     0x2a1c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/SDCard/libsdcard.a(sdhost.o)
- .debug_line    0x000000000001cffc      0x11d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpasupplicant.o)
- .debug_line    0x000000000001d119      0x474 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eloop_circle.o)
- .debug_line    0x000000000001d58d      0x55a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(os_circle.o)
- .debug_line    0x000000000001dae7      0x12e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(main_circle.o)
- .debug_line    0x000000000001dc15     0x2d71 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_supplicant.o)
- .debug_line    0x0000000000020986      0xcf0 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpas_glue.o)
- .debug_line    0x0000000000021676       0x3a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(drivers.o)
- .debug_line    0x00000000000216b0      0x95e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(driver_circle.o)
- .debug_line    0x000000000002200e      0x5cf /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(scan_helpers.o)
- .debug_line    0x00000000000225dd     0x180a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eapol_supp_sm.o)
- .debug_line    0x0000000000023de7     0x2012 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eap.o)
- .debug_line    0x0000000000025df9      0x4ce /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eap_methods.o)
- .debug_line    0x00000000000262c7      0x377 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(l2_packet_circle.o)
- .debug_line    0x000000000002663e      0x82a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(pmksa_cache.o)
- .debug_line    0x0000000000026e68      0x826 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(preauth.o)
- .debug_line    0x000000000002768e     0x1f4c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa.o)
- .debug_line    0x00000000000295da      0x7ae /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_ie.o)
- .debug_line    0x0000000000029d88      0x521 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(common.o)
- .debug_line    0x000000000002a2a9      0x5cf /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_debug.o)
- .debug_line    0x000000000002a878      0x889 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpabuf.o)
- .debug_line    0x000000000002b101      0x20e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(blacklist.o)
- .debug_line    0x000000000002b30f     0x2255 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(config.o)
- .debug_line    0x000000000002d564     0x1223 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(config_file_circle.o)
- .debug_line    0x000000000002e787     0x1265 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(events.o)
- .debug_line    0x000000000002f9ec       0xed /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(notify.o)
- .debug_line    0x000000000002fad9      0x86b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(scan.o)
- .debug_line    0x0000000000030344      0x4d5 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_common.o)
- .debug_line    0x0000000000030819      0x161 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(aes-unwrap.o)
- .debug_line    0x000000000003097a      0x562 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(md5-internal.o)
- .debug_line    0x0000000000030edc      0x1af /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(md5.o)
- .debug_line    0x000000000003108b      0x1e2 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(rc4.o)
- .debug_line    0x000000000003126d      0x15f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(sha1-pbkdf2.o)
- .debug_line    0x00000000000313cc      0x261 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(sha1.o)
- .debug_line    0x000000000003162d       0x5f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(tls_none.o)
- .debug_line    0x000000000003168c      0x3b0 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eap_common.o)
- .debug_line    0x0000000000031a3c      0x38b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(base64.o)
- .debug_line    0x0000000000031dc7      0x66b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(aes-internal-dec.o)
- .debug_line    0x0000000000032432      0x195 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(aes-internal.o)
- .debug_line    0x00000000000325c7      0xb99 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(sha1-internal.o)
- .debug_line    0x0000000000033160      0x70c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(bcm4343.o)
- .debug_line    0x000000000003386c     0x3c17 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(ether4330.o)
- .debug_line    0x0000000000037483      0xc3f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(emmc.o)
- .debug_line    0x00000000000380c2      0x45c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9arch.o)
- .debug_line    0x000000000003851e      0x214 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9chan.o)
- .debug_line    0x0000000000038732      0x223 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9cmd.o)
- .debug_line    0x0000000000038955      0x17d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9error.o)
- .debug_line    0x0000000000038ad2      0x37a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9ether.o)
- .debug_line    0x0000000000038e4c      0x345 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9proc.o)
- .debug_line    0x0000000000039191      0x356 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9util.o)
- .debug_line    0x00000000000394e7      0x270 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/fs/libfs.a(partitionmanager.o)
- .debug_line    0x0000000000039757      0x210 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/fs/libfs.a(partition.o)
- .debug_line    0x0000000000039967      0x5c7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(console.o)
- .debug_line    0x0000000000039f2e      0x34f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(keyboardbuffer.o)
- .debug_line    0x000000000003a27d      0x363 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(linediscipline.o)
- .debug_line    0x000000000003a5e0      0x2e5 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(actled.o)
- .debug_line    0x000000000003a8c5      0x22d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(alloc.o)
- .debug_line    0x000000000003aaf2       0xdf /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(assert.o)
- .debug_line    0x000000000003abd1      0x1db /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(bcmpropertytags.o)
- .debug_line    0x000000000003adac      0x7c4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(cputhrottle.o)
- .debug_line    0x000000000003b570      0x157 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(debug.o)
- .debug_line    0x000000000003b6c7      0x1f0 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(device.o)
- .debug_line    0x000000000003b8b7      0x44c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(devicenameservice.o)
- .debug_line    0x000000000003bd03      0xaa6 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(dmachannel.o)
- .debug_line    0x000000000003c7a9      0x350 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(gpiomanager.o)
- .debug_line    0x000000000003caf9      0xb93 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(gpiopin.o)
- .debug_line    0x000000000003d68c      0x734 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(i2cmaster.o)
- .debug_line    0x000000000003ddc0      0x5e2 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(koptions.o)
- .debug_line    0x000000000003e3a2      0x6ff /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(logger.o)
- .debug_line    0x000000000003eaa1      0x5c4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(machineinfo.o)
- .debug_line    0x000000000003f065      0x53a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(multicore.o)
- .debug_line    0x000000000003f59f       0xcd /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(nulldevice.o)
- .debug_line    0x000000000003f66c      0x36a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(ptrlist.o)
- .debug_line    0x000000000003f9d6      0xeab /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(serial.o)
- .debug_line    0x0000000000040881      0x6f4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(spimaster.o)
- .debug_line    0x0000000000040f75      0x132 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(spinlock.o)
- .debug_line    0x00000000000410a7     0x1717 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(string.o)
- .debug_line    0x00000000000427be      0x25a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(sysinit.o)
- .debug_line    0x0000000000042a18      0xb6f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(timer.o)
- .debug_line    0x0000000000043587      0x284 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(usertimer.o)
- .debug_line    0x000000000004380b       0xa1 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(util.o)
- .debug_line    0x00000000000438ac      0x2fe /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(virtualgpiopin.o)
- .debug_line    0x0000000000043baa       0x8c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(chainboot.o)
- .debug_line    0x0000000000043c36      0x2af /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(macaddress.o)
- .debug_line    0x0000000000043ee5      0x158 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(netdevice.o)
- .debug_line    0x000000000004403d       0xa5 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(new.o)
- .debug_line    0x00000000000440e2      0x3b9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(heapallocator.o)
- .debug_line    0x000000000004449b      0x195 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(pageallocator.o)
- .debug_line    0x0000000000044630      0x187 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(exceptionhandler64.o)
- .debug_line    0x00000000000447b7      0x2ec /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(memory64.o)
- .debug_line    0x0000000000044aa3      0x5af /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(synchronize64.o)
- .debug_line    0x0000000000045052      0x32f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(translationtable64.o)
- .debug_line    0x0000000000045381      0x185 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(bcmrandom.o)
- .debug_line    0x0000000000045506      0x937 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(interrupt.o)
- .debug_line    0x0000000000045e3d      0x392 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(bcmmailbox.o)
- .debug_line    0x00000000000461cf      0x364 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netsubsystem.o)
- .debug_line    0x0000000000046533      0x15b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(nettask.o)
- .debug_line    0x000000000004668e      0x689 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(socket.o)
- .debug_line    0x0000000000046d17      0xb1f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(transportlayer.o)
- .debug_line    0x0000000000047836      0x65e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(networklayer.o)
- .debug_line    0x0000000000047e94      0x5b5 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(linklayer.o)
- .debug_line    0x0000000000048449      0x327 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netdevlayer.o)
- .debug_line    0x0000000000048770      0x14b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(phytask.o)
- .debug_line    0x00000000000488bb      0x8d9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(arphandler.o)
- .debug_line    0x0000000000049194      0x4d1 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(icmphandler.o)
- .debug_line    0x0000000000049665      0x22c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(routecache.o)
- .debug_line    0x0000000000049891      0x1ff /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netconnection.o)
- .debug_line    0x0000000000049a90      0x77e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(udpconnection.o)
- .debug_line    0x000000000004a20e     0x18cd /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(tcpconnection.o)
- .debug_line    0x000000000004badb      0x27e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(retransmissionqueue.o)
- .debug_line    0x000000000004bd59      0x279 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(retranstimeoutcalc.o)
- .debug_line    0x000000000004bfd2      0x415 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(tcprejector.o)
- .debug_line    0x000000000004c3e7      0x343 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netconfig.o)
- .debug_line    0x000000000004c72a      0x4d4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(ipaddress.o)
- .debug_line    0x000000000004cbfe      0x2b7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netqueue.o)
- .debug_line    0x000000000004ceb5      0x2e3 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(checksumcalculator.o)
- .debug_line    0x000000000004d198      0xece /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(dhcpclient.o)
- .debug_line    0x000000000004e066      0x2d5 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netsocket.o)
- .debug_line    0x000000000004e33b      0x47e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(dnsclient.o)
- .debug_line    0x000000000004e7b9      0x3b8 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(task.o)
- .debug_line    0x000000000004eb71      0xbb8 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(scheduler.o)
- .debug_line    0x000000000004f729      0x176 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(synchronizationevent.o)
- .debug_line    0x000000000004f89f      0x16d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(mutex.o)
- .debug_line    0x000000000004fa0c     0x1629 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(hdmisoundbasedevice.o)
- .debug_line    0x0000000000051035      0x9d7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(i2ssoundbasedevice.o)
- .debug_line    0x0000000000051a0c      0xadc /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(pwmsoundbasedevice.o)
- .debug_line    0x00000000000524e8     0x134f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(soundbasedevice.o)
- .debug_line    0x0000000000053837      0x43c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(pcm512xsoundcontroller.o)
- .debug_line    0x0000000000053c73      0x23f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(wm8960soundcontroller.o)
- .debug_line    0x0000000000053eb2      0x938 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(dmasoundbuffers.o)
- .debug_line    0x00000000000547ea      0x510 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbhostcontroller.o)
- .debug_line    0x0000000000054cfa      0x4e6 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbkeyboard.o)
- .debug_line    0x00000000000551e0      0xa2f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbmidi.o)
- .debug_line    0x0000000000055c0f      0x3f7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbrequest.o)
- .debug_line    0x0000000000056006      0xc01 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbstandardhub.o)
- .debug_line    0x0000000000056c07     0x1f5a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcidevice.o)
- .debug_line    0x0000000000058b61      0x388 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschednper.o)
- .debug_line    0x0000000000058ee9      0x243 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschednsplit.o)
- .debug_line    0x000000000005912c      0x3fe /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschedper.o)
- .debug_line    0x000000000005952a      0x31f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciregister.o)
- .debug_line    0x0000000000059849      0x311 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcirootport.o)
- .debug_line    0x0000000000059b5a      0x543 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcixactqueue.o)
- .debug_line    0x000000000005a09d      0xb75 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcixferstagedata.o)
- .debug_line    0x000000000005ac12      0x430 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschediso.o)
- .debug_line    0x000000000005b042      0xe48 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbdevice.o)
- .debug_line    0x000000000005be8a      0x337 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbdevicefactory.o)
- .debug_line    0x000000000005c1c1      0x3f7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbendpoint.o)
- .debug_line    0x000000000005c5b8      0x5a6 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbfunction.o)
- .debug_line    0x000000000005cb5e      0x584 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbhiddevice.o)
- .debug_line    0x000000000005d0e2      0xa5d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbmassdevice.o)
- .debug_line    0x000000000005db3f      0x434 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbstring.o)
- .debug_line    0x000000000005df73      0x3e7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialch341.o)
- .debug_line    0x000000000005e35a      0x35a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialcp2102.o)
- .debug_line    0x000000000005e6b4      0x4a2 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialpl2303.o)
- .debug_line    0x000000000005eb56      0x3e6 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialft231x.o)
- .debug_line    0x000000000005ef3c      0x236 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialcdc.o)
- .debug_line    0x000000000005f172      0x9e0 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(lan7800.o)
- .debug_line    0x000000000005fb52      0x950 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(smsc951x.o)
- .debug_line    0x00000000000604a2      0x556 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbcdcethernet.o)
- .debug_line    0x00000000000609f8      0x35f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbconfigparser.o)
- .debug_line    0x0000000000060d57      0x56f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserial.o)
- .debug_line    0x00000000000612c6      0x35e /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(class_type_info.o)
- .debug_line    0x0000000000061624       0x63 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(del_ops.o)
- .debug_line    0x0000000000061687       0x63 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(del_opv.o)
- .debug_line    0x00000000000616ea      0x161 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_aux_runtime.o)
- .debug_line    0x000000000006184b      0xc12 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_personality.o)
- .debug_line    0x000000000006245d      0x239 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_terminate.o)
- .debug_line    0x0000000000062696      0x24a /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_throw.o)
- .debug_line    0x00000000000628e0       0x7c /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_unex_handler.o)
- .debug_line    0x000000000006295c      0x14c /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(guard.o)
- .debug_line    0x0000000000062aa8       0xcf /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(guard_error.o)
- .debug_line    0x0000000000062b77       0xcf /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(new_op.o)
- .debug_line    0x0000000000062c46       0x63 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(new_opv.o)
- .debug_line    0x0000000000062ca9      0x2c0 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(si_class_type_info.o)
- .debug_line    0x0000000000062f69      0x130 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(tinfo.o)
- .debug_line    0x0000000000063099      0xad6 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(vmi_class_type_info.o)
- .debug_line    0x0000000000063b6f      0x1e1 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(vterminate.o)
- .debug_line    0x0000000000063d50       0xb3 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(bad_alloc.o)
- .debug_line    0x0000000000063e03       0xaa /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(bad_array_new.o)
- .debug_line    0x0000000000063ead     0x9085 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(cp-demangle.o)
- .debug_line    0x000000000006cf32       0x79 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(del_op.o)
- .debug_line    0x000000000006cfab      0x4c4 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_alloc.o)
- .debug_line    0x000000000006d46f       0xe1 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_call.o)
- .debug_line    0x000000000006d550      0x2c6 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_catch.o)
- .debug_line    0x000000000006d816      0x1a2 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_exception.o)
- .debug_line    0x000000000006d9b8       0xaa /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_globals.o)
- .debug_line    0x000000000006da62       0x7c /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_term_handler.o)
- .debug_line    0x000000000006dade       0xe4 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_type.o)
- .debug_line    0x000000000006dbc2       0x9b /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(new_handler.o)
- .debug_line    0x000000000006dc5d       0x57 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(ldadd_4_4.o)
- .debug_line    0x000000000006dcb4       0x3a /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(lse-init.o)
- .debug_line    0x000000000006dcee      0x412 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(trunctfdf2.o)
- .debug_line    0x000000000006e100     0x2e5c /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(unwind-dw2.o)
- .debug_line    0x0000000000070f5c     0x197e /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(unwind-dw2-fde.o)
- .debug_line    0x00000000000728da       0x98 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(sfp-exceptions.o)
- .debug_line    0x0000000000072972      0x3ad /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(keyboardbehaviour.o)
- .debug_line    0x0000000000072d1f      0x3c9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(keymap.o)
- .debug_line    0x00000000000730e8      0x40c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(classallocator.o)
- .debug_line    0x00000000000734f4      0x359 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(gpioclock.o)
- .debug_line    0x000000000007384d      0x255 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(ptrarray.o)
- .debug_line    0x0000000000073aa2      0x1a7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(numberpool.o)
- .debug_line    0x0000000000073c49      0x480 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(ptrlistfiq.o)
- .debug_line    0x00000000000740c9      0x1ab /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(dyncast.o)
- .debug_line    0x0000000000074274       0x5a /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(cas_4_4.o)
+ .debug_line    0x0000000000006df4     0x2b9b src/mt32pi.o
+ .debug_line    0x000000000000998f     0x1206 src/net/applemidi.o
+ .debug_line    0x000000000000ab95      0x304 src/net/ftpdaemon.o
+ .debug_line    0x000000000000ae99     0x1e58 src/net/ftpworker.o
+ .debug_line    0x000000000000ccf1      0x276 src/net/udpmidi.o
+ .debug_line    0x000000000000cf67      0x675 src/pisound.o
+ .debug_line    0x000000000000d5dc      0x321 src/power.o
+ .debug_line    0x000000000000d8fd      0x9c7 src/rommanager.o
+ .debug_line    0x000000000000e2c4      0xad5 src/soundfontmanager.o
+ .debug_line    0x000000000000ed99      0xcc6 src/synth/mt32synth.o
+ .debug_line    0x000000000000fa5f     0x14bc src/synth/soundfontsynth.o
+ .debug_line    0x0000000000010f1b      0x7fa src/zoneallocator.o
+ .debug_line    0x0000000000011715       0x55 src/anim0.o
+ .debug_line    0x000000000001176a       0x55 src/anim1.o
+ .debug_line    0x00000000000117bf       0x55 src/anim2.o
+ .debug_line    0x0000000000011814       0x55 src/anim3.o
+ .debug_line    0x0000000000011869       0x55 src/anim4.o
+ .debug_line    0x00000000000118be       0x55 src/anim5.o
+ .debug_line    0x0000000000011913       0x55 src/anim6.o
+ .debug_line    0x0000000000011968       0x55 src/anim7.o
+ .debug_line    0x00000000000119bd       0x55 src/anim8.o
+ .debug_line    0x0000000000011a12       0x55 src/anim9.o
+ .debug_line    0x0000000000011a67       0x55 src/anim10.o
+ .debug_line    0x0000000000011abc       0x55 src/anim11.o
+ .debug_line    0x0000000000011b11       0x55 src/anim12.o
+ .debug_line    0x0000000000011b66      0x4ee src/sleepface.o
+ .debug_line    0x0000000000012054      0x5ff /home/ryan/MT32-PI-HC/external/inih/ini.o
+ .debug_line    0x0000000000012653     0x62e0 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(ff.o)
+ .debug_line    0x0000000000018933      0x305 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(diskio.o)
+ .debug_line    0x0000000000018c38      0x2d2 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(ffsystem.o)
+ .debug_line    0x0000000000018f0a      0x2a9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/libfatfs.a(ffunicode.o)
+ .debug_line    0x00000000000191b3      0xfeb /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/SDCard/libsdcard.a(emmc.o)
+ .debug_line    0x000000000001a19e      0x43b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/SDCard/libsdcard.a(mmchost.o)
+ .debug_line    0x000000000001a5d9     0x2a1c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/SDCard/libsdcard.a(sdhost.o)
+ .debug_line    0x000000000001cff5      0x11d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpasupplicant.o)
+ .debug_line    0x000000000001d112      0x474 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eloop_circle.o)
+ .debug_line    0x000000000001d586      0x55a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(os_circle.o)
+ .debug_line    0x000000000001dae0      0x12e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(main_circle.o)
+ .debug_line    0x000000000001dc0e     0x2d71 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_supplicant.o)
+ .debug_line    0x000000000002097f      0xcf0 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpas_glue.o)
+ .debug_line    0x000000000002166f       0x3a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(drivers.o)
+ .debug_line    0x00000000000216a9      0x95e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(driver_circle.o)
+ .debug_line    0x0000000000022007      0x5cf /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(scan_helpers.o)
+ .debug_line    0x00000000000225d6     0x180a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eapol_supp_sm.o)
+ .debug_line    0x0000000000023de0     0x2012 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eap.o)
+ .debug_line    0x0000000000025df2      0x4ce /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eap_methods.o)
+ .debug_line    0x00000000000262c0      0x377 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(l2_packet_circle.o)
+ .debug_line    0x0000000000026637      0x82a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(pmksa_cache.o)
+ .debug_line    0x0000000000026e61      0x826 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(preauth.o)
+ .debug_line    0x0000000000027687     0x1f4c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa.o)
+ .debug_line    0x00000000000295d3      0x7ae /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_ie.o)
+ .debug_line    0x0000000000029d81      0x521 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(common.o)
+ .debug_line    0x000000000002a2a2      0x5cf /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_debug.o)
+ .debug_line    0x000000000002a871      0x889 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpabuf.o)
+ .debug_line    0x000000000002b0fa      0x20e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(blacklist.o)
+ .debug_line    0x000000000002b308     0x2255 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(config.o)
+ .debug_line    0x000000000002d55d     0x1223 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(config_file_circle.o)
+ .debug_line    0x000000000002e780     0x1265 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(events.o)
+ .debug_line    0x000000000002f9e5       0xed /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(notify.o)
+ .debug_line    0x000000000002fad2      0x86b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(scan.o)
+ .debug_line    0x000000000003033d      0x4d5 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(wpa_common.o)
+ .debug_line    0x0000000000030812      0x161 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(aes-unwrap.o)
+ .debug_line    0x0000000000030973      0x562 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(md5-internal.o)
+ .debug_line    0x0000000000030ed5      0x1af /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(md5.o)
+ .debug_line    0x0000000000031084      0x1e2 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(rc4.o)
+ .debug_line    0x0000000000031266      0x15f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(sha1-pbkdf2.o)
+ .debug_line    0x00000000000313c5      0x261 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(sha1.o)
+ .debug_line    0x0000000000031626       0x5f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(tls_none.o)
+ .debug_line    0x0000000000031685      0x3b0 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(eap_common.o)
+ .debug_line    0x0000000000031a35      0x38b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(base64.o)
+ .debug_line    0x0000000000031dc0      0x66b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(aes-internal-dec.o)
+ .debug_line    0x000000000003242b      0x195 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(aes-internal.o)
+ .debug_line    0x00000000000325c0      0xb99 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/libwpa_supplicant.a(sha1-internal.o)
+ .debug_line    0x0000000000033159      0x70c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(bcm4343.o)
+ .debug_line    0x0000000000033865     0x3c17 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(ether4330.o)
+ .debug_line    0x000000000003747c      0xc3f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(emmc.o)
+ .debug_line    0x00000000000380bb      0x45c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9arch.o)
+ .debug_line    0x0000000000038517      0x214 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9chan.o)
+ .debug_line    0x000000000003872b      0x223 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9cmd.o)
+ .debug_line    0x000000000003894e      0x17d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9error.o)
+ .debug_line    0x0000000000038acb      0x37a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9ether.o)
+ .debug_line    0x0000000000038e45      0x345 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9proc.o)
+ .debug_line    0x000000000003918a      0x356 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/libwlan.a(p9util.o)
+ .debug_line    0x00000000000394e0      0x270 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/fs/libfs.a(partitionmanager.o)
+ .debug_line    0x0000000000039750      0x210 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/fs/libfs.a(partition.o)
+ .debug_line    0x0000000000039960      0x5c7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(console.o)
+ .debug_line    0x0000000000039f27      0x34f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(keyboardbuffer.o)
+ .debug_line    0x000000000003a276      0x363 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(linediscipline.o)
+ .debug_line    0x000000000003a5d9      0x2e5 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(actled.o)
+ .debug_line    0x000000000003a8be      0x22d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(alloc.o)
+ .debug_line    0x000000000003aaeb       0xdf /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(assert.o)
+ .debug_line    0x000000000003abca      0x1db /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(bcmpropertytags.o)
+ .debug_line    0x000000000003ada5      0x7c4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(cputhrottle.o)
+ .debug_line    0x000000000003b569      0x157 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(debug.o)
+ .debug_line    0x000000000003b6c0      0x1f0 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(device.o)
+ .debug_line    0x000000000003b8b0      0x44c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(devicenameservice.o)
+ .debug_line    0x000000000003bcfc      0xaa6 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(dmachannel.o)
+ .debug_line    0x000000000003c7a2      0x350 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(gpiomanager.o)
+ .debug_line    0x000000000003caf2      0xb93 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(gpiopin.o)
+ .debug_line    0x000000000003d685      0x734 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(i2cmaster.o)
+ .debug_line    0x000000000003ddb9      0x5e2 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(koptions.o)
+ .debug_line    0x000000000003e39b      0x6ff /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(logger.o)
+ .debug_line    0x000000000003ea9a      0x5c4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(machineinfo.o)
+ .debug_line    0x000000000003f05e      0x53a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(multicore.o)
+ .debug_line    0x000000000003f598       0xcd /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(nulldevice.o)
+ .debug_line    0x000000000003f665      0x36a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(ptrlist.o)
+ .debug_line    0x000000000003f9cf      0xeab /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(serial.o)
+ .debug_line    0x000000000004087a      0x6f4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(spimaster.o)
+ .debug_line    0x0000000000040f6e      0x132 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(spinlock.o)
+ .debug_line    0x00000000000410a0     0x1717 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(string.o)
+ .debug_line    0x00000000000427b7      0x25a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(sysinit.o)
+ .debug_line    0x0000000000042a11      0xb6f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(timer.o)
+ .debug_line    0x0000000000043580      0x284 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(usertimer.o)
+ .debug_line    0x0000000000043804       0xa1 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(util.o)
+ .debug_line    0x00000000000438a5      0x2fe /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(virtualgpiopin.o)
+ .debug_line    0x0000000000043ba3       0x8c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(chainboot.o)
+ .debug_line    0x0000000000043c2f      0x2af /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(macaddress.o)
+ .debug_line    0x0000000000043ede      0x158 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(netdevice.o)
+ .debug_line    0x0000000000044036       0xa5 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(new.o)
+ .debug_line    0x00000000000440db      0x3b9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(heapallocator.o)
+ .debug_line    0x0000000000044494      0x195 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(pageallocator.o)
+ .debug_line    0x0000000000044629      0x187 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(exceptionhandler64.o)
+ .debug_line    0x00000000000447b0      0x2ec /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(memory64.o)
+ .debug_line    0x0000000000044a9c      0x5af /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(synchronize64.o)
+ .debug_line    0x000000000004504b      0x32f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(translationtable64.o)
+ .debug_line    0x000000000004537a      0x185 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(bcmrandom.o)
+ .debug_line    0x00000000000454ff      0x937 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(interrupt.o)
+ .debug_line    0x0000000000045e36      0x392 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(bcmmailbox.o)
+ .debug_line    0x00000000000461c8      0x364 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netsubsystem.o)
+ .debug_line    0x000000000004652c      0x15b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(nettask.o)
+ .debug_line    0x0000000000046687      0x689 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(socket.o)
+ .debug_line    0x0000000000046d10      0xb1f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(transportlayer.o)
+ .debug_line    0x000000000004782f      0x65e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(networklayer.o)
+ .debug_line    0x0000000000047e8d      0x5b5 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(linklayer.o)
+ .debug_line    0x0000000000048442      0x327 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netdevlayer.o)
+ .debug_line    0x0000000000048769      0x14b /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(phytask.o)
+ .debug_line    0x00000000000488b4      0x8d9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(arphandler.o)
+ .debug_line    0x000000000004918d      0x4d1 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(icmphandler.o)
+ .debug_line    0x000000000004965e      0x22c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(routecache.o)
+ .debug_line    0x000000000004988a      0x1ff /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netconnection.o)
+ .debug_line    0x0000000000049a89      0x77e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(udpconnection.o)
+ .debug_line    0x000000000004a207     0x18cd /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(tcpconnection.o)
+ .debug_line    0x000000000004bad4      0x27e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(retransmissionqueue.o)
+ .debug_line    0x000000000004bd52      0x279 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(retranstimeoutcalc.o)
+ .debug_line    0x000000000004bfcb      0x415 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(tcprejector.o)
+ .debug_line    0x000000000004c3e0      0x343 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netconfig.o)
+ .debug_line    0x000000000004c723      0x4d4 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(ipaddress.o)
+ .debug_line    0x000000000004cbf7      0x2b7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netqueue.o)
+ .debug_line    0x000000000004ceae      0x2e3 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(checksumcalculator.o)
+ .debug_line    0x000000000004d191      0xece /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(dhcpclient.o)
+ .debug_line    0x000000000004e05f      0x2d5 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(netsocket.o)
+ .debug_line    0x000000000004e334      0x47e /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/net/libnet.a(dnsclient.o)
+ .debug_line    0x000000000004e7b2      0x3b8 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(task.o)
+ .debug_line    0x000000000004eb6a      0xbb8 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(scheduler.o)
+ .debug_line    0x000000000004f722      0x176 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(synchronizationevent.o)
+ .debug_line    0x000000000004f898      0x16d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sched/libsched.a(mutex.o)
+ .debug_line    0x000000000004fa05     0x1629 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(hdmisoundbasedevice.o)
+ .debug_line    0x000000000005102e      0x9d7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(i2ssoundbasedevice.o)
+ .debug_line    0x0000000000051a05      0xadc /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(pwmsoundbasedevice.o)
+ .debug_line    0x00000000000524e1     0x134f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(soundbasedevice.o)
+ .debug_line    0x0000000000053830      0x43c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(pcm512xsoundcontroller.o)
+ .debug_line    0x0000000000053c6c      0x23f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(wm8960soundcontroller.o)
+ .debug_line    0x0000000000053eab      0x938 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/sound/libsound.a(dmasoundbuffers.o)
+ .debug_line    0x00000000000547e3      0x510 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbhostcontroller.o)
+ .debug_line    0x0000000000054cf3      0x4e6 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbkeyboard.o)
+ .debug_line    0x00000000000551d9      0xa2f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbmidi.o)
+ .debug_line    0x0000000000055c08      0x3f7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbrequest.o)
+ .debug_line    0x0000000000055fff      0xc01 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbstandardhub.o)
+ .debug_line    0x0000000000056c00     0x1f5a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcidevice.o)
+ .debug_line    0x0000000000058b5a      0x388 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschednper.o)
+ .debug_line    0x0000000000058ee2      0x243 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschednsplit.o)
+ .debug_line    0x0000000000059125      0x3fe /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschedper.o)
+ .debug_line    0x0000000000059523      0x31f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciregister.o)
+ .debug_line    0x0000000000059842      0x311 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcirootport.o)
+ .debug_line    0x0000000000059b53      0x543 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcixactqueue.o)
+ .debug_line    0x000000000005a096      0xb75 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhcixferstagedata.o)
+ .debug_line    0x000000000005ac0b      0x430 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(dwhciframeschediso.o)
+ .debug_line    0x000000000005b03b      0xe48 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbdevice.o)
+ .debug_line    0x000000000005be83      0x337 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbdevicefactory.o)
+ .debug_line    0x000000000005c1ba      0x3f7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbendpoint.o)
+ .debug_line    0x000000000005c5b1      0x5a6 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbfunction.o)
+ .debug_line    0x000000000005cb57      0x584 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbhiddevice.o)
+ .debug_line    0x000000000005d0db      0xa5d /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbmassdevice.o)
+ .debug_line    0x000000000005db38      0x434 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbstring.o)
+ .debug_line    0x000000000005df6c      0x3e7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialch341.o)
+ .debug_line    0x000000000005e353      0x35a /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialcp2102.o)
+ .debug_line    0x000000000005e6ad      0x4a2 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialpl2303.o)
+ .debug_line    0x000000000005eb4f      0x3e6 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialft231x.o)
+ .debug_line    0x000000000005ef35      0x236 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserialcdc.o)
+ .debug_line    0x000000000005f16b      0x9e0 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(lan7800.o)
+ .debug_line    0x000000000005fb4b      0x950 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(smsc951x.o)
+ .debug_line    0x000000000006049b      0x556 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbcdcethernet.o)
+ .debug_line    0x00000000000609f1      0x35f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbconfigparser.o)
+ .debug_line    0x0000000000060d50      0x56f /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/usb/libusb.a(usbserial.o)
+ .debug_line    0x00000000000612bf      0x35e /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(class_type_info.o)
+ .debug_line    0x000000000006161d       0x63 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(del_ops.o)
+ .debug_line    0x0000000000061680       0x63 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(del_opv.o)
+ .debug_line    0x00000000000616e3      0x161 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_aux_runtime.o)
+ .debug_line    0x0000000000061844      0xc12 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_personality.o)
+ .debug_line    0x0000000000062456      0x239 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_terminate.o)
+ .debug_line    0x000000000006268f      0x24a /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_throw.o)
+ .debug_line    0x00000000000628d9       0x7c /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_unex_handler.o)
+ .debug_line    0x0000000000062955      0x14c /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(guard.o)
+ .debug_line    0x0000000000062aa1       0xcf /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(guard_error.o)
+ .debug_line    0x0000000000062b70       0xcf /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(new_op.o)
+ .debug_line    0x0000000000062c3f       0x63 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(new_opv.o)
+ .debug_line    0x0000000000062ca2      0x2c0 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(si_class_type_info.o)
+ .debug_line    0x0000000000062f62      0x130 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(tinfo.o)
+ .debug_line    0x0000000000063092      0xad6 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(vmi_class_type_info.o)
+ .debug_line    0x0000000000063b68      0x1e1 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(vterminate.o)
+ .debug_line    0x0000000000063d49       0xb3 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(bad_alloc.o)
+ .debug_line    0x0000000000063dfc       0xaa /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(bad_array_new.o)
+ .debug_line    0x0000000000063ea6     0x9085 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(cp-demangle.o)
+ .debug_line    0x000000000006cf2b       0x79 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(del_op.o)
+ .debug_line    0x000000000006cfa4      0x4c4 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_alloc.o)
+ .debug_line    0x000000000006d468       0xe1 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_call.o)
+ .debug_line    0x000000000006d549      0x2c6 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_catch.o)
+ .debug_line    0x000000000006d80f      0x1a2 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_exception.o)
+ .debug_line    0x000000000006d9b1       0xaa /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_globals.o)
+ .debug_line    0x000000000006da5b       0x7c /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_term_handler.o)
+ .debug_line    0x000000000006dad7       0xe4 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(eh_type.o)
+ .debug_line    0x000000000006dbbb       0x9b /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(new_handler.o)
+ .debug_line    0x000000000006dc56       0x57 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(ldadd_4_4.o)
+ .debug_line    0x000000000006dcad       0x3a /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(lse-init.o)
+ .debug_line    0x000000000006dce7      0x412 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(trunctfdf2.o)
+ .debug_line    0x000000000006e0f9     0x2e5c /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(unwind-dw2.o)
+ .debug_line    0x0000000000070f55     0x197e /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(unwind-dw2-fde.o)
+ .debug_line    0x00000000000728d3       0x98 /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(sfp-exceptions.o)
+ .debug_line    0x000000000007296b      0x3ad /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(keyboardbehaviour.o)
+ .debug_line    0x0000000000072d18      0x3c9 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/input/libinput.a(keymap.o)
+ .debug_line    0x00000000000730e1      0x40c /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(classallocator.o)
+ .debug_line    0x00000000000734ed      0x359 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(gpioclock.o)
+ .debug_line    0x0000000000073846      0x255 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(ptrarray.o)
+ .debug_line    0x0000000000073a9b      0x1a7 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(numberpool.o)
+ .debug_line    0x0000000000073c42      0x480 /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/lib/libcircle.a(ptrlistfiq.o)
+ .debug_line    0x00000000000740c2      0x1ab /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/../../../../aarch64-none-elf/lib/libstdc++.a(dyncast.o)
+ .debug_line    0x000000000007426d       0x5a /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.3.1/libgcc.a(cas_4_4.o)
 
 .debug_str      0x0000000000000000    0x38a04
  .debug_str     0x0000000000000000     0x3320 src/config.o
