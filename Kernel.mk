@@ -32,7 +32,7 @@ OBJS		:=	src/config.o \
 			src/synth/mt32synth.o \
 			src/synth/soundfontsynth.o \
 			src/zoneallocator.o \
-			src/sleepface.o
+			src/animations.o
 
 EXTRACLEAN	+=	src/*.d src/*.o \
 			src/control/*.d src/control/*.o \
