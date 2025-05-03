@@ -29,7 +29,7 @@
 
 ## Project status
 
-<img title="mt32-pi running on the Raspberry Pi 3 A+" width="280rem" align="right" src="images/mt-01.png">
+<img title="mt32-pi running on the Raspberry Pi 3 A+" width="280rem" align="right" src="images/mt32-pi-wht-pet.jpeg">
 This repository is a clone of the original where I will be making my own changes and is not affiliated with the original project. This repository is for a specific hardware build of the device by HobbyChop and therefore this readme file will be stripped down to include only what is related to that specific device.
 
 - [I²S Hi-Fi DAC support][I²S Hi-Fi DACs].
