@@ -1,4 +1,4 @@
-[![mt32-pi CI](https://github.com/dwhinham/mt32-pi/workflows/mt32-pi%20CI/badge.svg)](https://github.com/dwhinham/mt32-pi/actions?query=workflow:"mt32-pi+CI")
+[![mt32-pi CI](images/mt32pi_logo_dark.png)
 
 <h1 align="center">
     <a href="https://donation.dec.org.uk/ukraine-humanitarian-appeal">
