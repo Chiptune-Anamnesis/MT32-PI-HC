@@ -1,7 +1,4 @@
-<h1 align="center">
-        <img width="90%" src="images/mt32pi_logo.svg">
-    </a>
-</h1>
+
 
 - A work-in-progress baremetal MIDI synthesizer for the Raspberry Pi 3 or above, based on [Munt], [FluidSynth] and [Circle].
 
