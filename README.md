@@ -1,4 +1,4 @@
-[![mt32-pi CI](images/mt32pi_logo_dark.png)
+(images/mt32pi_logo_dark.png)
 
 <h1 align="center">
     <a href="https://donation.dec.org.uk/ukraine-humanitarian-appeal">
