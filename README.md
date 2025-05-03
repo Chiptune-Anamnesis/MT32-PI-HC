@@ -1,6 +1,5 @@
 <h1 align="center">
-    <a href="https://donation.dec.org.uk/ukraine-humanitarian-appeal">
-        <img width="90%" title="mt32-pi stands with Ukraine 🇺🇦" src="images/mt32pi_logo.png">
+        <img width="90%" src="images/mt32pi_logo.svg">
     </a>
 </h1>
 
