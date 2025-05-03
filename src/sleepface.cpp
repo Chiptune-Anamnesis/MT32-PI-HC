@@ -36,6 +36,7 @@ static const Animation animations[] = {
     { anim2, 12  },
     { anim3, 10  },
     { anim4, 19  },
+    { anim5, 20  },
     { anim6, 10  },
     { anim7, 16  },
     { anim8, 10  },

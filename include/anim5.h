@@ -4,7 +4,7 @@
 
 #include <stdint.h>
 
-#define ANIM5_FRAMES 1
+#define ANIM5_FRAMES 5
 #define ANIM5_WIDTH 128
 #define ANIM5_HEIGHT 32
 
