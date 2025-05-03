@@ -32,19 +32,6 @@ OBJS		:=	src/config.o \
 			src/synth/mt32synth.o \
 			src/synth/soundfontsynth.o \
 			src/zoneallocator.o \
-			src/anim0.o \
-			src/anim1.o \
-			src/anim2.o \
-			src/anim3.o \
-			src/anim4.o \
-			src/anim5.o \
-			src/anim6.o \
-			src/anim7.o \
-			src/anim8.o \
-			src/anim9.o \
-			src/anim10.o \
-			src/anim11.o \
-			src/anim12.o \
 			src/sleepface.o
 
 EXTRACLEAN	+=	src/*.d src/*.o \

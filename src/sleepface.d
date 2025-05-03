@@ -20,6 +20,14 @@ src/sleepface.o src/sleepface.d: src/sleepface.cpp \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/sched/taskswitch.h \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/sched/synchronizationevent.h \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/device.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/ff.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/ffconf.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/stdint.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/machine/_default_types.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/features.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/_newlib_version.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/_intsup.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/_stdint.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/cstdlib \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/aarch64-none-elf/bits/c++config.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/aarch64-none-elf/bits/os_defines.h \
@@ -28,23 +36,21 @@ src/sleepface.o src/sleepface.d: src/sleepface.cpp \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/machine/ieeefp.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/_ansi.h \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/newlib.h \
- /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/_newlib_version.h \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/config.h \
- /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/features.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/lib/gcc/aarch64-none-elf/11.3.1/include/stddef.h \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/reent.h \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/_ansi.h \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/_types.h \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/machine/_types.h \
- /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/machine/_default_types.h \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/lock.h \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/cdefs.h \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/machine/stdlib.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/bits/std_abs.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/cstdint \
- /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/stdint.h \
- /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/_intsup.h \
- /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/_stdint.h \
+ /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/cstring \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/string.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/_ansi.h \
+ /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/string.h \
  include/utility.h \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/util.h \
  include/mt32pi.h \
@@ -121,8 +127,6 @@ src/sleepface.o src/sleepface.d: src/sleepface.cpp \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/usb/usbmidi.h \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/usb/usbserial.h \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/include/circle/serial.h \
- /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/ff.h \
- /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/fatfs/ffconf.h \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/bcm4343.h \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/etherevent.h \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/libs/circle/addon/wlan/hostap/wpa_supplicant/wpasupplicant.h \
@@ -173,7 +177,6 @@ src/sleepface.o src/sleepface.d: src/sleepface.cpp \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/aarch64-none-elf/bits/c++locale.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/clocale \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/locale.h \
- /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/_ansi.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/cctype \
  /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/ctype.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/bits/ios_base.h \
@@ -233,9 +236,6 @@ src/sleepface.o src/sleepface.d: src/sleepface.cpp \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/bits/fstream.tcc \
  build-munt/include/mt32emu/ROMInfo.h build-munt/include/mt32emu/Synth.h \
  /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/cstdarg \
- /home/ryan/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-elf/aarch64-none-elf/include/c++/11.3.1/cstring \
- /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/string.h \
- /home/ryan/MT32-PI-HC/external/circle-stdlib/install/aarch64-none-circle/include/sys/string.h \
  build-munt/include/mt32emu/Enumerations.h \
  build-munt/include/mt32emu/MidiStreamParser.h \
  build-munt/include/mt32emu/SampleRateConverter.h include/rommanager.h \
@@ -277,7 +277,4 @@ src/sleepface.o src/sleepface.d: src/sleepface.cpp \
  build-fluidsynth/include/fluidsynth/version.h \
  /home/ryan/MT32-PI-HC/external/fluidsynth/include/fluidsynth/ladspa.h \
  include/soundfontmanager.h include/synth/fxprofile.h \
- include/synth/fxprofile.h include/anim0.h include/anim1.h \
- include/anim2.h include/anim3.h include/anim4.h include/anim5.h \
- include/anim6.h include/anim7.h include/anim8.h include/anim9.h \
- include/anim10.h include/anim11.h include/anim12.h
+ include/synth/fxprofile.h
