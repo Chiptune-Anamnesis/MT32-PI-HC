@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img width="90%" title="mt32-pi - Baremetal synthesizer system" src="images/mt32-pi-hc-logo-01.png">
+    <img width="75%" title="mt32-pi - Baremetal synthesizer system" src="images/mt32-pi-hc-logo-01.png">
 </h1>
 
 - A work-in-progress baremetal MIDI synthesizer for the Raspberry Pi 3 or above, based on [Munt], [FluidSynth] and [Circle].
