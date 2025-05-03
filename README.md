@@ -17,6 +17,16 @@
 
 ---
 
+## New features
+
+- Encoder button press (once) displays the currently used soundfont file.
+
+- Encoder button press (twice) displays animated pixel pet.
+
+## Known planned features
+
+- Make device remembers last used soundfont and will select it automatically upon device rebootm, power loss, etc.
+
 ## Project status
 
 <img title="mt32-pi running on the Raspberry Pi 3 A+" width="280rem" align="right" src="images/mt-01.png">
