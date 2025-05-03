@@ -51,19 +51,12 @@ The goal of this development is focused on features for musicians, and the focus
 1. Download the latest release from the [Releases] section.
 
 2. Extract contents to a blank [FAT32-formatted SD card][SD card preparation].
-    * Read the [SD card preparation] wiki page for hints on formatting an SD card correctly (especially under Windows).
 
 3. For MT-32 support, add your MT-32 or CM-32L ROM images to the `roms` directory - you have to provide these for copyright reasons.
-    * You will need at least one control ROM and one PCM ROM.
 
-    * For information on using multiple ROM sets and switching between them, see the [MT-32 synthesis] wiki page.
-    * The file names or extensions don't matter; mt32-pi will scan and detect their types automatically.
+4. Add your favorite SoundFonts to the `soundfonts` directory.
 
-4. Optionally add your favorite SoundFonts to the `soundfonts` directory.
-    * For information on using multiple SoundFonts and switching between them, see the [SoundFont synthesis] wiki page.
-    * Again, file names/extensions don't matter.
-
-5. The `mt32-pi.cfg` file has already been configured for the hardware and the MIDI hate, but feel free to look through the options and make any tweaks.
+5. The `mt32-pi.cfg` file has already been configured for the hardware and the MIDI hat, but feel free to look through the options and make any tweaks.
 
 6. Connect a [USB MIDI interface][USB MIDI interfaces] or [GPIO MIDI circuit][GPIO MIDI interface] to the Pi, and connect some speakers to the headphone jack.
 
