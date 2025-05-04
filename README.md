@@ -63,3 +63,5 @@ The goal of this development is focused on features for musicians, and the focus
 6. Connect a [USB MIDI interface][USB MIDI interfaces] or [GPIO MIDI circuit][GPIO MIDI interface] to the Pi, and connect some speakers to the headphone jack.
 
 7. Connect your vintage PC's MIDI OUT to the Pi's MIDI IN and (optionally) vice versa.
+
+Device available here: https://hobbychop.etsy.com
